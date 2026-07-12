@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>AprovaEdu Analytics — Dashboard (Logap themed)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<style>
+  :root{
+    --navy:#0A1628; --blue:#00A8E8; --accent:#00D4FF; --bg:#F5F7FA; --card:#FFFFFF; --ink:#1F2937; --muted:#6B7280;
+  }
+  *{box-sizing:border-box;}
+  body{font-family:'Segoe UI',Roboto,Arial,sans-serif;background:var(--bg);margin:0;color:var(--ink);}
+  header{background:linear-gradient(135deg,var(--navy) 0%,#0D2847 50%,var(--blue) 100%);color:#fff;padding:28px 40px;box-shadow:0 2px 8px rgba(0,168,232,0.15);}
+  header h1{margin:0;font-size:24px;font-weight:600;}
+  header p{margin:6px 0 0;opacity:.85;font-size:14px;}
+  .wrap{max-width:1180px;margin:0 auto;padding:24px 20px 60px;}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px;margin-bottom:28px;}
+  .kpi{background:var(--card);border-radius:12px;padding:18px 20px;box-shadow:0 1px 4px rgba(0,168,232,.12);border-left:4px solid var(--blue);}
+  .kpi .label{font-size:12.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;}
+  .kpi .value{font-size:26px;font-weight:700;color:var(--navy);margin-top:4px;}
+  .kpi .sub{font-size:12px;color:var(--muted);margin-top:2px;}
+  section{background:var(--card);border-radius:12px;padding:20px 22px;margin-bottom:24px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
+  section h2{font-size:17px;color:var(--navy);margin:0 0 4px;}
+  section .note{font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.5;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+  @media(max-width:860px){.grid2{grid-template-columns:1fr;}}
+  .tag{display:inline-block;font-size:11px;background:#E0F7FF;color:var(--blue);padding:2px 8px;border-radius:20px;margin-left:8px;font-weight:600;}
+  footer{text-align:center;color:var(--muted);font-size:12px;padding:20px;}
+</style>
+</head>
+<body>
+<header>
+  <h1>AprovaEdu Analytics — Dashboard Pedagógico <span style="font-size:13px;opacity:0.7;font-weight:400;margin-left:12px;">powered by Logap</span></h1>
+  <p>Cursinho pré-vestibular · 2021–2025 · Base tratada a partir da amostra fornecida</p>
+</header>
+<div class="wrap">
+
+  <div class="kpis" id="kpis"></div>
+
+  <section>
+    <h2>1. Evolução das aprovações no vestibular <span class="tag">dado completo</span></h2>
+    <div class="note">Barras = nº de aprovações por ano (base <b>completa</b> de aprovações). Linha = taxa estimada, calculada a partir de uma amostra de matrículas escalada proporcionalmente — tratar como aproximação, não como percentual exato.</div>
+    <div id="chart_q1" style="height:380px;"></div>
+  </section>
+
+  <div class="grid2">
+    <section>
+      <h2>Aprovações por universidade</h2>
+      <div class="note">Total acumulado 2021–2025.</div>
+      <div id="chart_q1b" style="height:340px;"></div>
+    </section>
+    <section>
+      <h2>Aprovações por tipo de bolsa</h2>
+      <div class="note">% dos aprovados por faixa de bolsa concedida.</div>
+      <div id="chart_q1c" style="height:340px;"></div>
+    </section>
+  </div>
+
+  <section>
+    <h2>2. Presença nas aulas x aprovação <span class="tag">amostra pequena — n=47</span></h2>
+    <div class="note">Comparação da taxa de presença entre alunos aprovados e não aprovados, entre os que possuem registro de presença na amostra. O resultado aponta uma diferença na direção esperada (aprovados com presença um pouco maior), mas <b>sem significância estatística</b> no tamanho de amostra disponível (teste de Mann-Whitney, p ≈ 0,12).</div>
+    <div class="grid2">
+      <div id="chart_q2" style="height:360px;"></div>
+      <div id="chart_q2b" style="height:360px;"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. Desempenho por matéria <span class="tag">dado amplo — todas as matérias</span></h2>
+    <div class="note">Nota média no diagnóstico de matrícula e taxa de conclusão, por matéria (cobre as 11 matérias, com boa base amostral em cada uma).</div>
+    <div id="chart_q3" style="height:420px;"></div>
+  </section>
+
+</div>
+<footer>AprovaEdu Analytics · Desafio Técnico · Versão adaptada ao branding Logap</footer>
+
+<script>
+const data = {"q1_por_ano": [{"index": 2021, "aprovados": 50, "alunos_matriculados_amostra": 9, "alunos_matriculados_estimado": 170.0, "taxa_aprovacao_estimada_%": 29.4, "variacao_aprovados_%": null}, {"index": 2022, "aprovados": 53, "alunos_matriculados_amostra": 15, "alunos_matriculados_estimado": 284.0, "taxa_aprovacao_estimada_%": 18.7, "variacao_aprovados_%": 6.0}, {"index": 2023, "aprovados": 77, "alunos_matriculados_amostra": 15, "alunos_matriculados_estimado": 284.0, "taxa_aprovacao_estimada_%": 27.1, "variacao_aprovados_%": 45.3}, {"index": 2024, "aprovados": 79, "alunos_matriculados_amostra": 12, "alunos_matriculados_estimado": 227.0, "taxa_aprovacao_estimada_%": 34.8, "variacao_aprovados_%": 2.6}, {"index": 2025, "aprovados": 80, "alunos_matriculados_amostra": 6, "alunos_matriculados_estimado": 113.0, "taxa_aprovacao_estimada_%": 70.8, "variacao_aprovados_%": 1.3}], "q1_universidade": {"UECE": 60, "UFC": 51, "UNILAB": 35, "UERN": 33, "UFRN": 32, "UVA": 31, "UNIFOR": 29, "IFCE": 25, "UFCA": 23, "UFPE": 20}, "q1_bolsa": {"Sim": 47.2, "Não": 28.3, "Parcial": 24.5}, "q2_attendance_points": [{"taxa": 84.6, "aprovado": false}, {"taxa": 72.7, "aprovado": false}, {"taxa": 92.3, "aprovado": true}, {"taxa": 75.0, "aprovado": false}, {"taxa": 77.8, "aprovado": false}, {"taxa": 80.0, "aprovado": false}, {"taxa": 75.0, "aprovado": false}, {"taxa": 91.7, "aprovado": true}, {"taxa": 90.0, "aprovado": false}, {"taxa": 84.6, "aprovado": false}, {"taxa": 75.0, "aprovado": false}, {"taxa": 100.0, "aprovado": true}, {"taxa": 100.0, "aprovado": true}, {"taxa": 80.0, "aprovado": false}, {"taxa": 77.8, "aprovado": false}, {"taxa": 88.9, "aprovado": true}, {"taxa": 85.7, "aprovado": true}, {"taxa": 90.0, "aprovado": true}, {"taxa": 78.6, "aprovado": false}, {"taxa": 100.0, "aprovado": false}, {"taxa": 81.8, "aprovado": true}, {"taxa": 100.0, "aprovado": false}, {"taxa": 72.7, "aprovado": true}, {"taxa": 69.2, "aprovado": false}, {"taxa": 66.7, "aprovado": false}, {"taxa": 76.9, "aprovado": false}, {"taxa": 72.7, "aprovado": false}, {"taxa": 91.7, "aprovado": false}, {"taxa": 88.9, "aprovado": false}, {"taxa": 100.0, "aprovado": true}, {"taxa": 71.4, "aprovado": false}, {"taxa": 90.0, "aprovado": true}, {"taxa": 81.8, "aprovado": true}, {"taxa": 61.5, "aprovado": true}, {"taxa": 72.7, "aprovado": true}, {"taxa": 83.3, "aprovado": false}, {"taxa": 84.6, "aprovado": true}, {"taxa": 64.3, "aprovado": false}, {"taxa": 100.0, "aprovado": false}, {"taxa": 83.3, "aprovado": true}, {"taxa": 88.9, "aprovado": false}, {"taxa": 92.3, "aprovado": false}, {"taxa": 90.9, "aprovado": false}, {"taxa": 72.7, "aprovado": false}, {"taxa": 87.5, "aprovado": true}, {"taxa": 66.7, "aprovado": false}, {"taxa": 75.0, "aprovado": true}], "q2_group_means": {"aprovados": 85.5, "nao_aprovados": 81.0}, "q2_pvalue": 0.1246, "q2b_scatter": [{"taxa": 84.6, "nota": 61.075}, {"taxa": 72.7, "nota": 50.925}, {"taxa": 92.3, "nota": 61.475}, {"taxa": 75.0, "nota": 73.46666666666665}, {"taxa": 77.8, "nota": 65.6}, {"taxa": 80.0, "nota": 60.43333333333334}, {"taxa": 75.0, "nota": 79.73333333333333}, {"taxa": 91.7, "nota": 61.36666666666667}, {"taxa": 90.0, "nota": 68.575}, {"taxa": 84.6, "nota": 39.900000000000006}, {"taxa": 75.0, "nota": 43.1}, {"taxa": 100.0, "nota": 56.0}, {"taxa": 100.0, "nota": 63.075}, {"taxa": 80.0, "nota": 63.449999999999996}, {"taxa": 77.8, "nota": 49.675}, {"taxa": 88.9, "nota": 64.325}, {"taxa": 85.7, "nota": 66.93333333333334}, {"taxa": 90.0, "nota": 51.65}, {"taxa": 78.6, "nota": 52.95}, {"taxa": 100.0, "nota": 56.666666666666664}, {"taxa": 81.8, "nota": 46.56666666666666}, {"taxa": 100.0, "nota": 53.13333333333333}, {"taxa": 72.7, "nota": 44.45}, {"taxa": 69.2, "nota": 60.3}, {"taxa": 66.7, "nota": 54.86666666666667}, {"taxa": 76.9, "nota": 53.2}, {"taxa": 72.7, "nota": 69.4}, {"taxa": 91.7, "nota": 73.35}, {"taxa": 88.9, "nota": 67.425}, {"taxa": 100.0, "nota": 67.2}, {"taxa": 71.4, "nota": 68.3}, {"taxa": 90.0, "nota": 55.099999999999994}, {"taxa": 81.8, "nota": 47.36666666666667}, {"taxa": 61.5, "nota": 35.6}, {"taxa": 72.7, "nota": 69.85}, {"taxa": 83.3, "nota": 61.6}, {"taxa": 84.6, "nota": 61.833333333333336}, {"taxa": 64.3, "nota": 55.625}, {"taxa": 100.0, "nota": 57.633333333333326}, {"taxa": 83.3, "nota": 57.75}, {"taxa": 88.9, "nota": 58.93333333333334}, {"taxa": 92.3, "nota": 60.666666666666664}, {"taxa": 90.9, "nota": 62.13333333333333}, {"taxa": 72.7, "nota": 64.375}, {"taxa": 87.5, "nota": 57.05}, {"taxa": 66.7, "nota": 63.43333333333334}, {"taxa": 75.0, "nota": 67.73333333333333}], "q3_materia": [{"materia_declarada": "Biologia", "n_matriculas": 38, "nota_diagnostico_media": 60.7, "taxa_conclusao_pct": 68.4, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Filosofia", "n_matriculas": 42, "nota_diagnostico_media": 59.1, "taxa_conclusao_pct": 73.8, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Física", "n_matriculas": 45, "nota_diagnostico_media": 58.6, "taxa_conclusao_pct": 60.0, "n_resultados": 107.0, "nota_simulado_media": 59.6, "taxa_finalizacao_pct": 80.4}, {"materia_declarada": "Geografia", "n_matriculas": 38, "nota_diagnostico_media": 55.8, "taxa_conclusao_pct": 65.8, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "História", "n_matriculas": 40, "nota_diagnostico_media": 57.1, "taxa_conclusao_pct": 67.5, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Inglês", "n_matriculas": 49, "nota_diagnostico_media": 58.8, "taxa_conclusao_pct": 51.0, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Matemática", "n_matriculas": 56, "nota_diagnostico_media": 61.0, "taxa_conclusao_pct": 66.1, "n_resultados": 393.0, "nota_simulado_media": 60.7, "taxa_finalizacao_pct": 85.8}, {"materia_declarada": "Português", "n_matriculas": 56, "nota_diagnostico_media": 58.2, "taxa_conclusao_pct": 66.1, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Química", "n_matriculas": 36, "nota_diagnostico_media": 58.2, "taxa_conclusao_pct": 72.2, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Redação", "n_matriculas": 56, "nota_diagnostico_media": 59.3, "taxa_conclusao_pct": 64.3, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}, {"materia_declarada": "Sociologia", "n_matriculas": 44, "nota_diagnostico_media": 54.8, "taxa_conclusao_pct": 68.2, "n_resultados": null, "nota_simulado_media": null, "taxa_finalizacao_pct": null}]};
+(function(){
+
+  const navy='#0A1628', blue='#00A8E8', accent='#00D4FF', muted='#9CA3AF';
+
+  // KPIs
+  const q1 = data.q1_por_ano;
+  const totalAprov = q1.reduce((a,b)=>a+b.aprovados,0);
+  const growth = ((q1[q1.length-1].aprovados/q1[0].aprovados-1)*100).toFixed(0);
+  const kpis = [
+    {label:'Aprovações totais (2021-2025)', value: totalAprov, sub:'base completa'},
+    {label:'Crescimento em aprovações', value: growth+'%', sub:'2021 → 2025'},
+    {label:'Presença média (amostra)', value: (data.q2_group_means.aprovados+data.q2_group_means.nao_aprovados)/2 |0 , sub:'% aulas com presença efetiva'},
+    {label:'Matérias analisadas', value: data.q3_materia.length, sub:'diagnóstico + simulados'},
+  ];
+  document.getElementById('kpis').innerHTML = kpis.map(k=>`
+    <div class="kpi"><div class="label">${k.label}</div><div class="value">${k.value}</div><div class="sub">${k.sub}</div></div>
+  `).join('');
+
+  // Q1
+  Plotly.newPlot('chart_q1', [
+    {x:q1.map(d=>d.index), y:q1.map(d=>d.aprovados), type:'bar', name:'Aprovações', marker:{color:blue}},
+    {x:q1.map(d=>d.index), y:q1.map(d=>d['taxa_aprovacao_estimada_%']), type:'scatter', mode:'lines+markers', name:'Taxa estimada (%)', yaxis:'y2', line:{color:accent,width:3}, marker:{size:8}}
+  ], {
+    margin:{t:10,l:50,r:50,b:40},
+    yaxis:{title:'Nº de aprovações'},
+    yaxis2:{title:'Taxa estimada (%)', overlaying:'y', side:'right'},
+    legend:{orientation:'h', y:-0.2},
+    font:{family:'Segoe UI'}
+  }, {responsive:true, displayModeBar:false});
+
+  // Q1b
+  const uniEntries = Object.entries(data.q1_universidade).sort((a,b)=>a[1]-b[1]);
+  Plotly.newPlot('chart_q1b', [{
+    x: uniEntries.map(e=>e[1]), y: uniEntries.map(e=>e[0]), type:'bar', orientation:'h', marker:{color:blue}
+  }], {margin:{t:10,l:70,r:20,b:40}, xaxis:{title:'Nº de aprovações'}}, {responsive:true, displayModeBar:false});
+
+  // Q1c
+  const bolsaEntries = Object.entries(data.q1_bolsa);
+  Plotly.newPlot('chart_q1c', [{
+    labels: bolsaEntries.map(e=>e[0]), values: bolsaEntries.map(e=>e[1]), type:'pie', hole:.45,
+    marker:{colors:[navy,blue,accent]}
+  }], {margin:{t:10,l:10,r:10,b:10}}, {responsive:true, displayModeBar:false});
+
+  // Q2 boxplot
+  const aprovPts = data.q2_attendance_points.filter(p=>p.aprovado).map(p=>p.taxa);
+  const naoPts = data.q2_attendance_points.filter(p=>!p.aprovado).map(p=>p.taxa);
+  Plotly.newPlot('chart_q2', [
+    {y:naoPts, type:'box', name:'Não aprovado', marker:{color:accent}},
+    {y:aprovPts, type:'box', name:'Aprovado', marker:{color:blue}}
+  ], {margin:{t:10,l:50,r:20,b:40}, yaxis:{title:'Taxa de presença (%)'}}, {responsive:true, displayModeBar:false});
+
+  // Q2b scatter
+  Plotly.newPlot('chart_q2b', [{
+    x: data.q2b_scatter.map(p=>p.taxa), y: data.q2b_scatter.map(p=>p.nota),
+    mode:'markers', type:'scatter', marker:{color:blue, size:9, opacity:.75}
+  }], {margin:{t:10,l:50,r:20,b:40}, xaxis:{title:'Taxa de presença (%)'}, yaxis:{title:'Nota média nos simulados'}}, {responsive:true, displayModeBar:false});
+
+  // Q3
+  const materias = data.q3_materia.sort((a,b)=>b.nota_diagnostico_media-a.nota_diagnostico_media);
+  Plotly.newPlot('chart_q3', [
+    {x: materias.map(m=>m.materia_declarada), y: materias.map(m=>m.nota_diagnostico_media), type:'bar', name:'Nota diagnóstico', marker:{color:blue}},
+    {x: materias.map(m=>m.materia_declarada), y: materias.map(m=>m.taxa_conclusao_pct), type:'scatter', mode:'lines+markers', name:'Taxa conclusão (%)', yaxis:'y2', line:{color:accent,width:3}}
+  ], {
+    margin:{t:10,l:50,r:50,b:80},
+    yaxis:{title:'Nota média (0-100)'},
+    yaxis2:{title:'Taxa de conclusão (%)', overlaying:'y', side:'right'},
+    legend:{orientation:'h', y:-0.35}
+  }, {responsive:true, displayModeBar:false});
+
+})();
+</script>
+</body>
+</html>

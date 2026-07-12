@@ -1,0 +1,30 @@
+# Uso:
+#   docker compose run pipeline         -> roda ETL + análises (gera data/processed, outputs, docs)
+#   docker compose up dashboard          -> sobe servidor em http://localhost:8080 servindo outputs/
+#
+# Os volumes montam as pastas do host para dentro do container, então os
+# arquivos gerados (CSVs, PNGs, JSON) aparecem na sua máquina normalmente.
+
+services:
+  pipeline:
+    build: .
+    container_name: aprovaedu-pipeline
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+      - ./docs:/app/docs
+      - ./src:/app/src
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  dashboard:
+    image: python:3.11-slim
+    container_name: aprovaedu-dashboard
+    working_dir: /app/outputs
+    volumes:
+      - ./outputs:/app/outputs
+    ports:
+      - "8080:8080"
+    command: ["python", "-m", "http.server", "8080"]
+    profiles:
+      - dashboard

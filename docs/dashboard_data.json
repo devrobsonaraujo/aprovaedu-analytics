@@ -1,0 +1,547 @@
+{
+  "q1_por_ano": [
+    {
+      "index": 2021,
+      "aprovados": 50,
+      "alunos_matriculados_amostra": 9,
+      "alunos_matriculados_estimado": 170.0,
+      "taxa_aprovacao_estimada_%": 29.4,
+      "variacao_aprovados_%": null
+    },
+    {
+      "index": 2022,
+      "aprovados": 53,
+      "alunos_matriculados_amostra": 15,
+      "alunos_matriculados_estimado": 284.0,
+      "taxa_aprovacao_estimada_%": 18.7,
+      "variacao_aprovados_%": 6.0
+    },
+    {
+      "index": 2023,
+      "aprovados": 77,
+      "alunos_matriculados_amostra": 15,
+      "alunos_matriculados_estimado": 284.0,
+      "taxa_aprovacao_estimada_%": 27.1,
+      "variacao_aprovados_%": 45.3
+    },
+    {
+      "index": 2024,
+      "aprovados": 79,
+      "alunos_matriculados_amostra": 12,
+      "alunos_matriculados_estimado": 227.0,
+      "taxa_aprovacao_estimada_%": 34.8,
+      "variacao_aprovados_%": 2.6
+    },
+    {
+      "index": 2025,
+      "aprovados": 80,
+      "alunos_matriculados_amostra": 6,
+      "alunos_matriculados_estimado": 113.0,
+      "taxa_aprovacao_estimada_%": 70.8,
+      "variacao_aprovados_%": 1.3
+    }
+  ],
+  "q1_universidade": {
+    "UECE": 60,
+    "UFC": 51,
+    "UNILAB": 35,
+    "UERN": 33,
+    "UFRN": 32,
+    "UVA": 31,
+    "UNIFOR": 29,
+    "IFCE": 25,
+    "UFCA": 23,
+    "UFPE": 20
+  },
+  "q1_bolsa": {
+    "Sim": 47.2,
+    "Não": 28.3,
+    "Parcial": 24.5
+  },
+  "q2_attendance_points": [
+    {
+      "taxa": 84.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 75.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 100.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 100.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 100.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 100.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 69.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 66.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 100.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 71.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 61.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 72.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 64.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 100.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 66.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.0,
+      "aprovado": true
+    }
+  ],
+  "q2_group_means": {
+    "aprovado": 85.52777777777777,
+    "nao_aprovado": 80.9551724137931
+  },
+  "q2_pvalue": 0.1246,
+  "q2b_scatter": [
+    {
+      "presenca": 84.6,
+      "nota": 61.075
+    },
+    {
+      "presenca": 72.7,
+      "nota": 50.925
+    },
+    {
+      "presenca": 92.3,
+      "nota": 61.475
+    },
+    {
+      "presenca": 75.0,
+      "nota": 73.46666666666665
+    },
+    {
+      "presenca": 77.8,
+      "nota": 65.6
+    },
+    {
+      "presenca": 80.0,
+      "nota": 60.43333333333334
+    },
+    {
+      "presenca": 75.0,
+      "nota": 79.73333333333333
+    },
+    {
+      "presenca": 91.7,
+      "nota": 61.36666666666667
+    },
+    {
+      "presenca": 90.0,
+      "nota": 68.575
+    },
+    {
+      "presenca": 84.6,
+      "nota": 39.900000000000006
+    },
+    {
+      "presenca": 75.0,
+      "nota": 43.1
+    },
+    {
+      "presenca": 100.0,
+      "nota": 56.0
+    },
+    {
+      "presenca": 100.0,
+      "nota": 63.075
+    },
+    {
+      "presenca": 80.0,
+      "nota": 63.449999999999996
+    },
+    {
+      "presenca": 77.8,
+      "nota": 49.675
+    },
+    {
+      "presenca": 88.9,
+      "nota": 64.325
+    },
+    {
+      "presenca": 85.7,
+      "nota": 66.93333333333334
+    },
+    {
+      "presenca": 90.0,
+      "nota": 51.65
+    },
+    {
+      "presenca": 78.6,
+      "nota": 52.95
+    },
+    {
+      "presenca": 100.0,
+      "nota": 56.666666666666664
+    },
+    {
+      "presenca": 81.8,
+      "nota": 46.56666666666666
+    },
+    {
+      "presenca": 100.0,
+      "nota": 53.13333333333333
+    },
+    {
+      "presenca": 72.7,
+      "nota": 44.45
+    },
+    {
+      "presenca": 69.2,
+      "nota": 60.3
+    },
+    {
+      "presenca": 66.7,
+      "nota": 54.86666666666667
+    },
+    {
+      "presenca": 76.9,
+      "nota": 53.2
+    },
+    {
+      "presenca": 72.7,
+      "nota": 69.4
+    },
+    {
+      "presenca": 91.7,
+      "nota": 73.35
+    },
+    {
+      "presenca": 88.9,
+      "nota": 67.425
+    },
+    {
+      "presenca": 100.0,
+      "nota": 67.2
+    },
+    {
+      "presenca": 71.4,
+      "nota": 68.3
+    },
+    {
+      "presenca": 90.0,
+      "nota": 55.099999999999994
+    },
+    {
+      "presenca": 81.8,
+      "nota": 47.36666666666667
+    },
+    {
+      "presenca": 61.5,
+      "nota": 35.6
+    },
+    {
+      "presenca": 72.7,
+      "nota": 69.85
+    },
+    {
+      "presenca": 83.3,
+      "nota": 61.6
+    },
+    {
+      "presenca": 84.6,
+      "nota": 61.833333333333336
+    },
+    {
+      "presenca": 64.3,
+      "nota": 55.625
+    },
+    {
+      "presenca": 100.0,
+      "nota": 57.633333333333326
+    },
+    {
+      "presenca": 83.3,
+      "nota": 57.75
+    },
+    {
+      "presenca": 88.9,
+      "nota": 58.93333333333334
+    },
+    {
+      "presenca": 92.3,
+      "nota": 60.666666666666664
+    },
+    {
+      "presenca": 90.9,
+      "nota": 62.13333333333333
+    },
+    {
+      "presenca": 72.7,
+      "nota": 64.375
+    },
+    {
+      "presenca": 87.5,
+      "nota": 57.05
+    },
+    {
+      "presenca": 66.7,
+      "nota": 63.43333333333334
+    },
+    {
+      "presenca": 75.0,
+      "nota": 67.73333333333333
+    }
+  ],
+  "q3_materia": [
+    {
+      "materia_declarada": "Biologia",
+      "n_matriculas": 38,
+      "nota_diagnostico_media": 60.7,
+      "taxa_conclusao_pct": 68.4,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Filosofia",
+      "n_matriculas": 42,
+      "nota_diagnostico_media": 59.1,
+      "taxa_conclusao_pct": 73.8,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Física",
+      "n_matriculas": 45,
+      "nota_diagnostico_media": 58.6,
+      "taxa_conclusao_pct": 60.0,
+      "n_resultados": 107.0,
+      "nota_simulado_media": 59.6,
+      "taxa_finalizacao_pct": 80.4
+    },
+    {
+      "materia_declarada": "Geografia",
+      "n_matriculas": 38,
+      "nota_diagnostico_media": 55.8,
+      "taxa_conclusao_pct": 65.8,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "História",
+      "n_matriculas": 40,
+      "nota_diagnostico_media": 57.1,
+      "taxa_conclusao_pct": 67.5,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Inglês",
+      "n_matriculas": 49,
+      "nota_diagnostico_media": 58.8,
+      "taxa_conclusao_pct": 51.0,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Matemática",
+      "n_matriculas": 56,
+      "nota_diagnostico_media": 61.0,
+      "taxa_conclusao_pct": 66.1,
+      "n_resultados": 393.0,
+      "nota_simulado_media": 60.7,
+      "taxa_finalizacao_pct": 85.8
+    },
+    {
+      "materia_declarada": "Português",
+      "n_matriculas": 56,
+      "nota_diagnostico_media": 58.2,
+      "taxa_conclusao_pct": 66.1,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Química",
+      "n_matriculas": 36,
+      "nota_diagnostico_media": 58.2,
+      "taxa_conclusao_pct": 72.2,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Redação",
+      "n_matriculas": 56,
+      "nota_diagnostico_media": 59.3,
+      "taxa_conclusao_pct": 64.3,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    },
+    {
+      "materia_declarada": "Sociologia",
+      "n_matriculas": 44,
+      "nota_diagnostico_media": 54.8,
+      "taxa_conclusao_pct": 68.2,
+      "n_resultados": null,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": null
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados gerados (serão criados pelo pipeline)
+# Mantendo exemplos no repo para demonstração
+# data/processed/
+# outputs/figures/
+# docs/metricas.json
+# docs/dashboard_data.json
+# docs/log_tratamento.md
+
+
+# Outros
+*.log
+*.zip
+*.tar.gz
