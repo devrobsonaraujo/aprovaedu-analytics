@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AprovaEdu Analytics</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: #1B3A5C; }
+        .dashboard-links {
+            margin: 40px 0;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .btn {
+            padding: 15px 30px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+        .btn-primary {
+            background: #2A5C8A;
+            color: white;
+        }
+        .btn-logap {
+            background: #00A8E8;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>📊 AprovaEdu Analytics</h1>
+    <p>Análise de dados do cursinho preparatório AprovaEdu</p>
+    
+    <div class="dashboard-links">
+        <a href="outputs/dashboard.html" class="btn btn-primary">
+            📊 Dashboard Original
+        </a>
+        <a href="outputs/dashboard_logap.html" class="btn btn-logap">
+            🚀 Dashboard Logap
+        </a>
+    </div>
+    
+    <hr style="margin: 40px 0;">
+    
+    <p>
+        <a href="https://github.com/devrobsonaraujo/aprovaedu-analytics">
+            Ver código no GitHub →
+        </a>
+    </p>
+</body>
+</html>
