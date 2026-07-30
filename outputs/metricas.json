@@ -1,0 +1,170 @@
+{
+  "q1_aprovacoes_por_ano": [
+    {
+      "index": 2021,
+      "aprovados": 50,
+      "alunos_matriculados": 138,
+      "taxa_aprovacao_%": 36.2,
+      "variacao_aprovados_%": null
+    },
+    {
+      "index": 2022,
+      "aprovados": 53,
+      "alunos_matriculados": 170,
+      "taxa_aprovacao_%": 31.2,
+      "variacao_aprovados_%": 6.0
+    },
+    {
+      "index": 2023,
+      "aprovados": 77,
+      "alunos_matriculados": 218,
+      "taxa_aprovacao_%": 35.3,
+      "variacao_aprovados_%": 45.3
+    },
+    {
+      "index": 2024,
+      "aprovados": 79,
+      "alunos_matriculados": 263,
+      "taxa_aprovacao_%": 30.0,
+      "variacao_aprovados_%": 2.6
+    },
+    {
+      "index": 2025,
+      "aprovados": 80,
+      "alunos_matriculados": 233,
+      "taxa_aprovacao_%": 34.3,
+      "variacao_aprovados_%": 1.3
+    }
+  ],
+  "q1_crescimento_total_aprovacoes_%": 60.0,
+  "q1_aprovacoes_por_universidade": {
+    "UECE": 60,
+    "UFC": 51,
+    "UNILAB": 35,
+    "UERN": 33,
+    "UFRN": 32,
+    "UVA": 31,
+    "UNIFOR": 29,
+    "IFCE": 25,
+    "UFCA": 23,
+    "UFPE": 20
+  },
+  "q1_pct_aprovados_com_bolsa": {
+    "Sim": 47.2,
+    "Não": 28.3,
+    "Parcial": 24.5
+  },
+  "q2_n_alunos_com_registro_presenca": 800,
+  "q2_taxa_presenca_media_%": 84.0,
+  "q2_taxa_presenca_mediana_%": 84.2,
+  "q2_overlap_presenca_aprovacao_n": 800,
+  "q2_overlap_aprovados": 306,
+  "q2_overlap_nao_aprovados": 494,
+  "q2_media_presenca_aprovados_%": 84.0,
+  "q2_media_presenca_nao_aprovados_%": 84.0,
+  "q2_mannwhitney_p_valor": 0.5737,
+  "q2b_n_presenca_x_simulado": 800,
+  "q2b_correlacao_presenca_nota_simulado": -0.054,
+  "q2b_p_valor": 0.1241,
+  "q3_desempenho_por_materia": [
+    {
+      "materia_declarada": "Filosofia",
+      "n_matriculas": 789,
+      "nota_diagnostico_media": 59.0,
+      "taxa_conclusao_pct": 70.6,
+      "n_resultados": 1874,
+      "nota_simulado_media": 61.5,
+      "taxa_finalizacao_pct": 84.6
+    },
+    {
+      "materia_declarada": "Matemática",
+      "n_matriculas": 1027,
+      "nota_diagnostico_media": 58.7,
+      "taxa_conclusao_pct": 71.1,
+      "n_resultados": 2043,
+      "nota_simulado_media": 60.9,
+      "taxa_finalizacao_pct": 84.8
+    },
+    {
+      "materia_declarada": "Geografia",
+      "n_matriculas": 783,
+      "nota_diagnostico_media": 58.5,
+      "taxa_conclusao_pct": 69.6,
+      "n_resultados": 1935,
+      "nota_simulado_media": 60.7,
+      "taxa_finalizacao_pct": 83.9
+    },
+    {
+      "materia_declarada": "Português",
+      "n_matriculas": 1026,
+      "nota_diagnostico_media": 58.5,
+      "taxa_conclusao_pct": 69.0,
+      "n_resultados": 1937,
+      "nota_simulado_media": 62.0,
+      "taxa_finalizacao_pct": 85.9
+    },
+    {
+      "materia_declarada": "Inglês",
+      "n_matriculas": 829,
+      "nota_diagnostico_media": 58.1,
+      "taxa_conclusao_pct": 68.4,
+      "n_resultados": 1820,
+      "nota_simulado_media": 61.3,
+      "taxa_finalizacao_pct": 84.5
+    },
+    {
+      "materia_declarada": "Redação",
+      "n_matriculas": 1027,
+      "nota_diagnostico_media": 58.1,
+      "taxa_conclusao_pct": 68.8,
+      "n_resultados": 1895,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": 85.1
+    },
+    {
+      "materia_declarada": "Biologia",
+      "n_matriculas": 805,
+      "nota_diagnostico_media": 57.9,
+      "taxa_conclusao_pct": 71.1,
+      "n_resultados": 1987,
+      "nota_simulado_media": 61.2,
+      "taxa_finalizacao_pct": 85.3
+    },
+    {
+      "materia_declarada": "Química",
+      "n_matriculas": 775,
+      "nota_diagnostico_media": 57.7,
+      "taxa_conclusao_pct": 69.9,
+      "n_resultados": 1976,
+      "nota_simulado_media": 61.4,
+      "taxa_finalizacao_pct": 85.3
+    },
+    {
+      "materia_declarada": "História",
+      "n_matriculas": 784,
+      "nota_diagnostico_media": 57.7,
+      "taxa_conclusao_pct": 74.4,
+      "n_resultados": 1972,
+      "nota_simulado_media": 61.5,
+      "taxa_finalizacao_pct": 85.0
+    },
+    {
+      "materia_declarada": "Física",
+      "n_matriculas": 806,
+      "nota_diagnostico_media": 57.4,
+      "taxa_conclusao_pct": 67.6,
+      "n_resultados": 2121,
+      "nota_simulado_media": 61.0,
+      "taxa_finalizacao_pct": 85.7
+    },
+    {
+      "materia_declarada": "Sociologia",
+      "n_matriculas": 801,
+      "nota_diagnostico_media": 56.7,
+      "taxa_conclusao_pct": 68.8,
+      "n_resultados": 1950,
+      "nota_simulado_media": 60.8,
+      "taxa_finalizacao_pct": 85.6
+    }
+  ]
+}

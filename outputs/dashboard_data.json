@@ -1,0 +1,6566 @@
+{
+  "q1_por_ano": [
+    {
+      "index": 2021,
+      "aprovados": 50,
+      "alunos_matriculados": 138,
+      "taxa_aprovacao_%": 36.2,
+      "variacao_aprovados_%": null
+    },
+    {
+      "index": 2022,
+      "aprovados": 53,
+      "alunos_matriculados": 170,
+      "taxa_aprovacao_%": 31.2,
+      "variacao_aprovados_%": 6.0
+    },
+    {
+      "index": 2023,
+      "aprovados": 77,
+      "alunos_matriculados": 218,
+      "taxa_aprovacao_%": 35.3,
+      "variacao_aprovados_%": 45.3
+    },
+    {
+      "index": 2024,
+      "aprovados": 79,
+      "alunos_matriculados": 263,
+      "taxa_aprovacao_%": 30.0,
+      "variacao_aprovados_%": 2.6
+    },
+    {
+      "index": 2025,
+      "aprovados": 80,
+      "alunos_matriculados": 233,
+      "taxa_aprovacao_%": 34.3,
+      "variacao_aprovados_%": 1.3
+    }
+  ],
+  "q1_universidade": {
+    "UECE": 60,
+    "UFC": 51,
+    "UNILAB": 35,
+    "UERN": 33,
+    "UFRN": 32,
+    "UVA": 31,
+    "UNIFOR": 29,
+    "IFCE": 25,
+    "UFCA": 23,
+    "UFPE": 20
+  },
+  "q1_bolsa": {
+    "Sim": 47.2,
+    "Não": 28.3,
+    "Parcial": 24.5
+  },
+  "q2_attendance_points": [
+    {
+      "taxa": 83.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 93.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 91.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 93.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 73.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 73.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 92.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 93.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 93.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 75.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 91.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 93.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 93.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 74.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 91.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 95.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 91.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 93.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 92.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 73.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 92.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 93.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 93.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 73.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 92.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 94.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 97.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 75.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 90.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 75.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 74.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 70.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 88.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 91.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 74.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 73.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 86.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 74.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 76.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 93.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 73.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 77.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 77.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 71.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 72.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.4,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 87.0,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 87.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 76.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 79.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 91.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 90.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.7,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.0,
+      "aprovado": false
+    },
+    {
+      "taxa": 78.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 88.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 75.5,
+      "aprovado": false
+    },
+    {
+      "taxa": 85.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.3,
+      "aprovado": true
+    },
+    {
+      "taxa": 78.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.5,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 92.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.1,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.3,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.6,
+      "aprovado": true
+    },
+    {
+      "taxa": 91.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 82.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 81.2,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.4,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.1,
+      "aprovado": false
+    },
+    {
+      "taxa": 80.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 89.2,
+      "aprovado": true
+    },
+    {
+      "taxa": 82.7,
+      "aprovado": false
+    },
+    {
+      "taxa": 79.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 89.8,
+      "aprovado": true
+    },
+    {
+      "taxa": 80.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": false
+    },
+    {
+      "taxa": 84.8,
+      "aprovado": false
+    },
+    {
+      "taxa": 83.9,
+      "aprovado": true
+    },
+    {
+      "taxa": 81.6,
+      "aprovado": false
+    },
+    {
+      "taxa": 86.4,
+      "aprovado": false
+    }
+  ],
+  "q2_group_means": {
+    "aprovado": 83.97516339869281,
+    "nao_aprovado": 84.02672064777327
+  },
+  "q2_pvalue": 0.5737,
+  "q2b_scatter": [
+    {
+      "presenca": 83.6,
+      "nota": 60.70625
+    },
+    {
+      "presenca": 89.6,
+      "nota": 56.3235294117647
+    },
+    {
+      "presenca": 81.8,
+      "nota": 59.01578947368421
+    },
+    {
+      "presenca": 85.3,
+      "nota": 59.473076923076924
+    },
+    {
+      "presenca": 84.9,
+      "nota": 51.77619047619047
+    },
+    {
+      "presenca": 84.5,
+      "nota": 64.2896551724138
+    },
+    {
+      "presenca": 77.6,
+      "nota": 62.584210526315786
+    },
+    {
+      "presenca": 83.3,
+      "nota": 61.83870967741935
+    },
+    {
+      "presenca": 82.9,
+      "nota": 61.846428571428575
+    },
+    {
+      "presenca": 84.4,
+      "nota": 59.80434782608695
+    },
+    {
+      "presenca": 77.8,
+      "nota": 59.73478260869565
+    },
+    {
+      "presenca": 85.1,
+      "nota": 63.865625
+    },
+    {
+      "presenca": 81.0,
+      "nota": 57.056000000000004
+    },
+    {
+      "presenca": 84.1,
+      "nota": 61.33571428571429
+    },
+    {
+      "presenca": 89.0,
+      "nota": 65.62222222222222
+    },
+    {
+      "presenca": 79.4,
+      "nota": 64.1970588235294
+    },
+    {
+      "presenca": 80.0,
+      "nota": 62.63333333333333
+    },
+    {
+      "presenca": 88.0,
+      "nota": 56.8
+    },
+    {
+      "presenca": 82.5,
+      "nota": 50.38666666666666
+    },
+    {
+      "presenca": 81.4,
+      "nota": 60.32777777777778
+    },
+    {
+      "presenca": 84.5,
+      "nota": 65.3
+    },
+    {
+      "presenca": 80.9,
+      "nota": 61.435
+    },
+    {
+      "presenca": 86.4,
+      "nota": 55.656666666666666
+    },
+    {
+      "presenca": 85.2,
+      "nota": 65.07608695652173
+    },
+    {
+      "presenca": 83.8,
+      "nota": 59.444186046511625
+    },
+    {
+      "presenca": 82.6,
+      "nota": 65.77777777777777
+    },
+    {
+      "presenca": 86.4,
+      "nota": 61.23076923076923
+    },
+    {
+      "presenca": 78.9,
+      "nota": 67.53076923076922
+    },
+    {
+      "presenca": 88.9,
+      "nota": 64.62857142857142
+    },
+    {
+      "presenca": 83.1,
+      "nota": 58.61764705882353
+    },
+    {
+      "presenca": 85.1,
+      "nota": 58.6
+    },
+    {
+      "presenca": 82.7,
+      "nota": 63.78947368421053
+    },
+    {
+      "presenca": 84.0,
+      "nota": 62.28936170212766
+    },
+    {
+      "presenca": 79.5,
+      "nota": 63.29
+    },
+    {
+      "presenca": 83.3,
+      "nota": 61.595454545454544
+    },
+    {
+      "presenca": 79.6,
+      "nota": 61.266666666666666
+    },
+    {
+      "presenca": 82.9,
+      "nota": 58.5030303030303
+    },
+    {
+      "presenca": 81.6,
+      "nota": 55.70526315789474
+    },
+    {
+      "presenca": 90.4,
+      "nota": 59.130434782608695
+    },
+    {
+      "presenca": 83.1,
+      "nota": 63.03103448275862
+    },
+    {
+      "presenca": 76.7,
+      "nota": 65.67777777777778
+    },
+    {
+      "presenca": 88.0,
+      "nota": 63.00714285714286
+    },
+    {
+      "presenca": 84.2,
+      "nota": 58.084210526315786
+    },
+    {
+      "presenca": 77.2,
+      "nota": 63.438095238095244
+    },
+    {
+      "presenca": 84.2,
+      "nota": 60.26129032258064
+    },
+    {
+      "presenca": 93.0,
+      "nota": 60.412
+    },
+    {
+      "presenca": 88.4,
+      "nota": 57.39333333333333
+    },
+    {
+      "presenca": 81.9,
+      "nota": 64.70476190476191
+    },
+    {
+      "presenca": 84.5,
+      "nota": 71.15
+    },
+    {
+      "presenca": 91.8,
+      "nota": 60.391304347826086
+    },
+    {
+      "presenca": 85.7,
+      "nota": 63.07096774193548
+    },
+    {
+      "presenca": 79.3,
+      "nota": 61.34117647058823
+    },
+    {
+      "presenca": 75.0,
+      "nota": 67.11428571428571
+    },
+    {
+      "presenca": 83.8,
+      "nota": 61.925
+    },
+    {
+      "presenca": 77.5,
+      "nota": 68.33999999999999
+    },
+    {
+      "presenca": 86.3,
+      "nota": 62.185
+    },
+    {
+      "presenca": 91.2,
+      "nota": 61.048148148148144
+    },
+    {
+      "presenca": 87.9,
+      "nota": 58.17916666666667
+    },
+    {
+      "presenca": 88.9,
+      "nota": 55.05294117647059
+    },
+    {
+      "presenca": 81.7,
+      "nota": 63.95526315789474
+    },
+    {
+      "presenca": 83.1,
+      "nota": 60.33571428571429
+    },
+    {
+      "presenca": 82.9,
+      "nota": 59.992592592592594
+    },
+    {
+      "presenca": 84.7,
+      "nota": 60.51428571428572
+    },
+    {
+      "presenca": 81.8,
+      "nota": 61.6051282051282
+    },
+    {
+      "presenca": 85.7,
+      "nota": 65.78
+    },
+    {
+      "presenca": 79.2,
+      "nota": 70.175
+    },
+    {
+      "presenca": 85.3,
+      "nota": 56.68214285714286
+    },
+    {
+      "presenca": 84.4,
+      "nota": 58.69655172413793
+    },
+    {
+      "presenca": 85.4,
+      "nota": 58.32692307692308
+    },
+    {
+      "presenca": 87.2,
+      "nota": 57.760000000000005
+    },
+    {
+      "presenca": 85.5,
+      "nota": 61.09090909090909
+    },
+    {
+      "presenca": 79.5,
+      "nota": 59.916000000000004
+    },
+    {
+      "presenca": 86.7,
+      "nota": 59.926923076923075
+    },
+    {
+      "presenca": 86.2,
+      "nota": 56.75714285714286
+    },
+    {
+      "presenca": 92.1,
+      "nota": 58.94705882352941
+    },
+    {
+      "presenca": 90.0,
+      "nota": 59.620000000000005
+    },
+    {
+      "presenca": 83.6,
+      "nota": 54.029629629629625
+    },
+    {
+      "presenca": 77.3,
+      "nota": 61.68260869565218
+    },
+    {
+      "presenca": 87.3,
+      "nota": 59.083999999999996
+    },
+    {
+      "presenca": 89.3,
+      "nota": 70.4076923076923
+    },
+    {
+      "presenca": 83.1,
+      "nota": 63.6875
+    },
+    {
+      "presenca": 77.6,
+      "nota": 57.27058823529412
+    },
+    {
+      "presenca": 89.9,
+      "nota": 61.52272727272727
+    },
+    {
+      "presenca": 93.5,
+      "nota": 56.58181818181818
+    },
+    {
+      "presenca": 86.4,
+      "nota": 62.22
+    },
+    {
+      "presenca": 84.2,
+      "nota": 58.40909090909091
+    },
+    {
+      "presenca": 80.4,
+      "nota": 63.15882352941177
+    },
+    {
+      "presenca": 80.9,
+      "nota": 68.53142857142856
+    },
+    {
+      "presenca": 89.6,
+      "nota": 62.349999999999994
+    },
+    {
+      "presenca": 73.7,
+      "nota": 67.36153846153846
+    },
+    {
+      "presenca": 88.7,
+      "nota": 56.417391304347824
+    },
+    {
+      "presenca": 86.6,
+      "nota": 63.11818181818182
+    },
+    {
+      "presenca": 81.7,
+      "nota": 65.89285714285714
+    },
+    {
+      "presenca": 76.5,
+      "nota": 64.13600000000001
+    },
+    {
+      "presenca": 87.1,
+      "nota": 59.76341463414634
+    },
+    {
+      "presenca": 75.4,
+      "nota": 64.88125
+    },
+    {
+      "presenca": 77.9,
+      "nota": 64.13846153846154
+    },
+    {
+      "presenca": 81.8,
+      "nota": 58.84090909090909
+    },
+    {
+      "presenca": 81.5,
+      "nota": 57.32380952380952
+    },
+    {
+      "presenca": 73.2,
+      "nota": 66.35714285714286
+    },
+    {
+      "presenca": 84.6,
+      "nota": 68.06923076923077
+    },
+    {
+      "presenca": 85.6,
+      "nota": 60.07692307692308
+    },
+    {
+      "presenca": 92.2,
+      "nota": 65.544
+    },
+    {
+      "presenca": 86.2,
+      "nota": 64.55964912280702
+    },
+    {
+      "presenca": 89.3,
+      "nota": 59.13333333333333
+    },
+    {
+      "presenca": 88.0,
+      "nota": 61.483333333333334
+    },
+    {
+      "presenca": 84.0,
+      "nota": 62.56785714285714
+    },
+    {
+      "presenca": 84.5,
+      "nota": 61.023999999999994
+    },
+    {
+      "presenca": 85.7,
+      "nota": 63.78148148148148
+    },
+    {
+      "presenca": 84.2,
+      "nota": 51.80434782608695
+    },
+    {
+      "presenca": 85.1,
+      "nota": 63.05882352941177
+    },
+    {
+      "presenca": 84.5,
+      "nota": 60.88260869565217
+    },
+    {
+      "presenca": 80.9,
+      "nota": 62.720689655172414
+    },
+    {
+      "presenca": 87.5,
+      "nota": 56.90857142857143
+    },
+    {
+      "presenca": 85.0,
+      "nota": 59.268085106382976
+    },
+    {
+      "presenca": 76.8,
+      "nota": 61.4
+    },
+    {
+      "presenca": 89.7,
+      "nota": 53.128571428571426
+    },
+    {
+      "presenca": 78.0,
+      "nota": 57.08181818181818
+    },
+    {
+      "presenca": 90.8,
+      "nota": 68.13684210526316
+    },
+    {
+      "presenca": 78.5,
+      "nota": 58.91803278688525
+    },
+    {
+      "presenca": 83.3,
+      "nota": 62.247368421052634
+    },
+    {
+      "presenca": 87.7,
+      "nota": 66.88235294117646
+    },
+    {
+      "presenca": 83.1,
+      "nota": 54.972727272727276
+    },
+    {
+      "presenca": 82.5,
+      "nota": 58.425000000000004
+    },
+    {
+      "presenca": 86.9,
+      "nota": 65.93461538461538
+    },
+    {
+      "presenca": 93.1,
+      "nota": 68.41333333333334
+    },
+    {
+      "presenca": 85.2,
+      "nota": 60.74285714285714
+    },
+    {
+      "presenca": 85.9,
+      "nota": 42.83
+    },
+    {
+      "presenca": 83.3,
+      "nota": 62.57142857142857
+    },
+    {
+      "presenca": 83.1,
+      "nota": 62.175
+    },
+    {
+      "presenca": 85.0,
+      "nota": 63.025
+    },
+    {
+      "presenca": 91.7,
+      "nota": 63.104166666666664
+    },
+    {
+      "presenca": 85.1,
+      "nota": 51.478947368421046
+    },
+    {
+      "presenca": 87.4,
+      "nota": 58.4483870967742
+    },
+    {
+      "presenca": 76.1,
+      "nota": 58.28181818181818
+    },
+    {
+      "presenca": 82.4,
+      "nota": 53.30714285714286
+    },
+    {
+      "presenca": 88.3,
+      "nota": 62.856
+    },
+    {
+      "presenca": 83.1,
+      "nota": 59.84666666666667
+    },
+    {
+      "presenca": 86.8,
+      "nota": 68.71666666666667
+    },
+    {
+      "presenca": 85.2,
+      "nota": 61.79600000000001
+    },
+    {
+      "presenca": 84.8,
+      "nota": 55.53333333333333
+    },
+    {
+      "presenca": 87.9,
+      "nota": 65.52666666666667
+    },
+    {
+      "presenca": 86.6,
+      "nota": 62.1875
+    },
+    {
+      "presenca": 83.3,
+      "nota": 62.5622641509434
+    },
+    {
+      "presenca": 88.4,
+      "nota": 63.66538461538461
+    },
+    {
+      "presenca": 91.1,
+      "nota": 58.36923076923077
+    },
+    {
+      "presenca": 86.8,
+      "nota": 58.209523809523816
+    },
+    {
+      "presenca": 81.3,
+      "nota": 65.82380952380952
+    },
+    {
+      "presenca": 79.7,
+      "nota": 49.878571428571426
+    },
+    {
+      "presenca": 78.2,
+      "nota": 68.0
+    },
+    {
+      "presenca": 93.5,
+      "nota": 53.1125
+    },
+    {
+      "presenca": 84.3,
+      "nota": 63.07083333333333
+    },
+    {
+      "presenca": 84.1,
+      "nota": 59.35625
+    },
+    {
+      "presenca": 89.8,
+      "nota": 61.247058823529414
+    },
+    {
+      "presenca": 87.5,
+      "nota": 62.39523809523809
+    },
+    {
+      "presenca": 87.0,
+      "nota": 62.955555555555556
+    },
+    {
+      "presenca": 79.2,
+      "nota": 62.63125
+    },
+    {
+      "presenca": 87.8,
+      "nota": 58.32631578947369
+    },
+    {
+      "presenca": 84.2,
+      "nota": 59.73478260869565
+    },
+    {
+      "presenca": 84.2,
+      "nota": 55.707142857142856
+    },
+    {
+      "presenca": 87.9,
+      "nota": 58.01538461538462
+    },
+    {
+      "presenca": 85.3,
+      "nota": 59.12222222222223
+    },
+    {
+      "presenca": 79.8,
+      "nota": 58.513333333333335
+    },
+    {
+      "presenca": 86.2,
+      "nota": 64.72222222222223
+    },
+    {
+      "presenca": 86.5,
+      "nota": 57.63125
+    },
+    {
+      "presenca": 87.2,
+      "nota": 64.96666666666667
+    },
+    {
+      "presenca": 92.6,
+      "nota": 56.77916666666667
+    },
+    {
+      "presenca": 87.8,
+      "nota": 61.328125
+    },
+    {
+      "presenca": 83.5,
+      "nota": 60.96
+    },
+    {
+      "presenca": 76.4,
+      "nota": 63.29333333333333
+    },
+    {
+      "presenca": 82.7,
+      "nota": 61.59375
+    },
+    {
+      "presenca": 75.6,
+      "nota": 59.23846153846154
+    },
+    {
+      "presenca": 87.5,
+      "nota": 67.755
+    },
+    {
+      "presenca": 83.7,
+      "nota": 60.232142857142854
+    },
+    {
+      "presenca": 86.3,
+      "nota": 56.21142857142858
+    },
+    {
+      "presenca": 91.5,
+      "nota": 60.425000000000004
+    },
+    {
+      "presenca": 80.5,
+      "nota": 61.875
+    },
+    {
+      "presenca": 90.2,
+      "nota": 55.16875
+    },
+    {
+      "presenca": 81.8,
+      "nota": 65.1608695652174
+    },
+    {
+      "presenca": 82.0,
+      "nota": 64.72142857142858
+    },
+    {
+      "presenca": 82.2,
+      "nota": 57.690909090909095
+    },
+    {
+      "presenca": 82.3,
+      "nota": 62.21666666666667
+    },
+    {
+      "presenca": 86.3,
+      "nota": 59.75333333333333
+    },
+    {
+      "presenca": 86.0,
+      "nota": 64.0
+    },
+    {
+      "presenca": 85.1,
+      "nota": 59.90689655172414
+    },
+    {
+      "presenca": 86.2,
+      "nota": 64.93333333333334
+    },
+    {
+      "presenca": 86.7,
+      "nota": 58.895
+    },
+    {
+      "presenca": 84.9,
+      "nota": 55.858823529411765
+    },
+    {
+      "presenca": 79.5,
+      "nota": 56.75
+    },
+    {
+      "presenca": 84.9,
+      "nota": 58.5
+    },
+    {
+      "presenca": 79.1,
+      "nota": 61.5695652173913
+    },
+    {
+      "presenca": 83.5,
+      "nota": 58.833333333333336
+    },
+    {
+      "presenca": 87.0,
+      "nota": 70.87777777777778
+    },
+    {
+      "presenca": 86.0,
+      "nota": 58.711111111111116
+    },
+    {
+      "presenca": 83.3,
+      "nota": 56.760000000000005
+    },
+    {
+      "presenca": 84.3,
+      "nota": 64.0125
+    },
+    {
+      "presenca": 88.5,
+      "nota": 63.61578947368421
+    },
+    {
+      "presenca": 80.5,
+      "nota": 60.82222222222222
+    },
+    {
+      "presenca": 87.5,
+      "nota": 64.99130434782609
+    },
+    {
+      "presenca": 86.8,
+      "nota": 67.77777777777777
+    },
+    {
+      "presenca": 82.8,
+      "nota": 59.90243902439025
+    },
+    {
+      "presenca": 83.2,
+      "nota": 61.74
+    },
+    {
+      "presenca": 83.7,
+      "nota": 59.57142857142857
+    },
+    {
+      "presenca": 80.3,
+      "nota": 59.03846153846154
+    },
+    {
+      "presenca": 85.2,
+      "nota": 60.00625
+    },
+    {
+      "presenca": 83.3,
+      "nota": 61.44166666666666
+    },
+    {
+      "presenca": 85.1,
+      "nota": 65.10714285714286
+    },
+    {
+      "presenca": 87.4,
+      "nota": 60.47586206896552
+    },
+    {
+      "presenca": 79.7,
+      "nota": 60.06170212765958
+    },
+    {
+      "presenca": 85.1,
+      "nota": 60.11176470588235
+    },
+    {
+      "presenca": 93.4,
+      "nota": 61.404761904761905
+    },
+    {
+      "presenca": 80.0,
+      "nota": 59.606896551724134
+    },
+    {
+      "presenca": 78.1,
+      "nota": 62.91428571428571
+    },
+    {
+      "presenca": 83.9,
+      "nota": 58.044444444444444
+    },
+    {
+      "presenca": 82.7,
+      "nota": 61.559090909090905
+    },
+    {
+      "presenca": 88.2,
+      "nota": 58.31428571428571
+    },
+    {
+      "presenca": 82.9,
+      "nota": 58.18260869565218
+    },
+    {
+      "presenca": 81.5,
+      "nota": 66.01666666666667
+    },
+    {
+      "presenca": 80.5,
+      "nota": 65.668
+    },
+    {
+      "presenca": 93.2,
+      "nota": 61.739999999999995
+    },
+    {
+      "presenca": 88.9,
+      "nota": 66.70526315789475
+    },
+    {
+      "presenca": 83.0,
+      "nota": 60.37083333333334
+    },
+    {
+      "presenca": 86.6,
+      "nota": 68.78823529411765
+    },
+    {
+      "presenca": 84.2,
+      "nota": 59.68620689655172
+    },
+    {
+      "presenca": 84.1,
+      "nota": 56.416666666666664
+    },
+    {
+      "presenca": 82.7,
+      "nota": 63.41219512195122
+    },
+    {
+      "presenca": 86.3,
+      "nota": 60.15238095238095
+    },
+    {
+      "presenca": 86.7,
+      "nota": 63.81304347826087
+    },
+    {
+      "presenca": 74.5,
+      "nota": 64.71481481481482
+    },
+    {
+      "presenca": 85.5,
+      "nota": 63.292857142857144
+    },
+    {
+      "presenca": 84.4,
+      "nota": 56.14666666666666
+    },
+    {
+      "presenca": 82.7,
+      "nota": 60.91454545454546
+    },
+    {
+      "presenca": 87.3,
+      "nota": 53.03636363636363
+    },
+    {
+      "presenca": 78.7,
+      "nota": 60.0
+    },
+    {
+      "presenca": 81.8,
+      "nota": 71.72727272727273
+    },
+    {
+      "presenca": 87.3,
+      "nota": 63.16428571428571
+    },
+    {
+      "presenca": 83.1,
+      "nota": 65.49565217391304
+    },
+    {
+      "presenca": 79.8,
+      "nota": 62.252941176470586
+    },
+    {
+      "presenca": 90.7,
+      "nota": 56.31666666666666
+    },
+    {
+      "presenca": 85.9,
+      "nota": 62.0025
+    },
+    {
+      "presenca": 90.9,
+      "nota": 64.47777777777777
+    },
+    {
+      "presenca": 91.4,
+      "nota": 56.44736842105263
+    },
+    {
+      "presenca": 78.2,
+      "nota": 60.24210526315789
+    },
+    {
+      "presenca": 81.8,
+      "nota": 54.660000000000004
+    },
+    {
+      "presenca": 80.0,
+      "nota": 57.43333333333333
+    },
+    {
+      "presenca": 81.4,
+      "nota": 60.7764705882353
+    },
+    {
+      "presenca": 89.0,
+      "nota": 59.13333333333333
+    },
+    {
+      "presenca": 76.3,
+      "nota": 62.96923076923077
+    },
+    {
+      "presenca": 82.1,
+      "nota": 62.154999999999994
+    },
+    {
+      "presenca": 83.7,
+      "nota": 60.43454545454546
+    },
+    {
+      "presenca": 84.9,
+      "nota": 62.92857142857143
+    },
+    {
+      "presenca": 85.9,
+      "nota": 54.67999999999999
+    },
+    {
+      "presenca": 91.4,
+      "nota": 47.621428571428574
+    },
+    {
+      "presenca": 83.3,
+      "nota": 62.05333333333333
+    },
+    {
+      "presenca": 86.4,
+      "nota": 63.49375
+    },
+    {
+      "presenca": 87.2,
+      "nota": 57.95135135135135
+    },
+    {
+      "presenca": 86.6,
+      "nota": 61.98571428571429
+    },
+    {
+      "presenca": 82.5,
+      "nota": 61.88333333333333
+    },
+    {
+      "presenca": 81.4,
+      "nota": 63.46666666666667
+    },
+    {
+      "presenca": 81.8,
+      "nota": 69.88181818181819
+    },
+    {
+      "presenca": 79.1,
+      "nota": 61.9625
+    },
+    {
+      "presenca": 83.3,
+      "nota": 63.86818181818182
+    },
+    {
+      "presenca": 76.5,
+      "nota": 66.15
+    },
+    {
+      "presenca": 82.9,
+      "nota": 65.236
+    },
+    {
+      "presenca": 84.3,
+      "nota": 57.21071428571429
+    },
+    {
+      "presenca": 78.9,
+      "nota": 59.165
+    },
+    {
+      "presenca": 88.1,
+      "nota": 65.67647058823529
+    },
+    {
+      "presenca": 86.4,
+      "nota": 61.98148148148148
+    },
+    {
+      "presenca": 82.5,
+      "nota": 62.54615384615385
+    },
+    {
+      "presenca": 88.3,
+      "nota": 59.15
+    },
+    {
+      "presenca": 88.3,
+      "nota": 56.42307692307692
+    },
+    {
+      "presenca": 81.8,
+      "nota": 62.5529411764706
+    },
+    {
+      "presenca": 90.0,
+      "nota": 58.642857142857146
+    },
+    {
+      "presenca": 83.8,
+      "nota": 58.36666666666667
+    },
+    {
+      "presenca": 87.5,
+      "nota": 57.12553191489362
+    },
+    {
+      "presenca": 80.3,
+      "nota": 56.02307692307692
+    },
+    {
+      "presenca": 86.7,
+      "nota": 65.80833333333334
+    },
+    {
+      "presenca": 86.6,
+      "nota": 57.5
+    },
+    {
+      "presenca": 86.3,
+      "nota": 67.02666666666667
+    },
+    {
+      "presenca": 85.0,
+      "nota": 58.11904761904762
+    },
+    {
+      "presenca": 89.6,
+      "nota": 68.46153846153847
+    },
+    {
+      "presenca": 78.0,
+      "nota": 60.77142857142857
+    },
+    {
+      "presenca": 81.6,
+      "nota": 61.49148936170213
+    },
+    {
+      "presenca": 86.5,
+      "nota": 58.43157894736842
+    },
+    {
+      "presenca": 82.5,
+      "nota": 62.36666666666666
+    },
+    {
+      "presenca": 81.4,
+      "nota": 73.48461538461538
+    },
+    {
+      "presenca": 79.0,
+      "nota": 52.574999999999996
+    },
+    {
+      "presenca": 82.3,
+      "nota": 56.70399999999999
+    },
+    {
+      "presenca": 90.0,
+      "nota": 63.64782608695653
+    },
+    {
+      "presenca": 85.7,
+      "nota": 66.58571428571429
+    },
+    {
+      "presenca": 85.3,
+      "nota": 64.31304347826087
+    },
+    {
+      "presenca": 84.1,
+      "nota": 55.19375
+    },
+    {
+      "presenca": 90.0,
+      "nota": 56.714285714285715
+    },
+    {
+      "presenca": 78.2,
+      "nota": 69.41363636363636
+    },
+    {
+      "presenca": 85.5,
+      "nota": 64.07857142857144
+    },
+    {
+      "presenca": 84.3,
+      "nota": 65.61578947368422
+    },
+    {
+      "presenca": 81.6,
+      "nota": 57.75714285714286
+    },
+    {
+      "presenca": 95.0,
+      "nota": 61.70625
+    },
+    {
+      "presenca": 84.7,
+      "nota": 61.833333333333336
+    },
+    {
+      "presenca": 82.8,
+      "nota": 53.77894736842105
+    },
+    {
+      "presenca": 86.6,
+      "nota": 64.27916666666667
+    },
+    {
+      "presenca": 87.3,
+      "nota": 56.525
+    },
+    {
+      "presenca": 85.0,
+      "nota": 59.75405405405406
+    },
+    {
+      "presenca": 80.9,
+      "nota": 58.432352941176475
+    },
+    {
+      "presenca": 91.7,
+      "nota": 54.18333333333334
+    },
+    {
+      "presenca": 79.0,
+      "nota": 57.62916666666666
+    },
+    {
+      "presenca": 83.7,
+      "nota": 61.72380952380953
+    },
+    {
+      "presenca": 85.2,
+      "nota": 64.17777777777778
+    },
+    {
+      "presenca": 84.1,
+      "nota": 64.65
+    },
+    {
+      "presenca": 78.0,
+      "nota": 56.61052631578947
+    },
+    {
+      "presenca": 80.7,
+      "nota": 60.66428571428571
+    },
+    {
+      "presenca": 86.6,
+      "nota": 55.81428571428571
+    },
+    {
+      "presenca": 86.2,
+      "nota": 61.63695652173914
+    },
+    {
+      "presenca": 76.8,
+      "nota": 65.29545454545455
+    },
+    {
+      "presenca": 86.0,
+      "nota": 67.20666666666666
+    },
+    {
+      "presenca": 82.1,
+      "nota": 60.23529411764706
+    },
+    {
+      "presenca": 87.0,
+      "nota": 60.285185185185185
+    },
+    {
+      "presenca": 86.1,
+      "nota": 63.776923076923076
+    },
+    {
+      "presenca": 84.1,
+      "nota": 61.211764705882345
+    },
+    {
+      "presenca": 86.2,
+      "nota": 64.51666666666667
+    },
+    {
+      "presenca": 84.4,
+      "nota": 59.92999999999999
+    },
+    {
+      "presenca": 85.5,
+      "nota": 64.40588235294118
+    },
+    {
+      "presenca": 85.0,
+      "nota": 67.72500000000001
+    },
+    {
+      "presenca": 83.9,
+      "nota": 58.917948717948725
+    },
+    {
+      "presenca": 85.7,
+      "nota": 58.36923076923077
+    },
+    {
+      "presenca": 89.6,
+      "nota": 65.58125
+    },
+    {
+      "presenca": 81.0,
+      "nota": 72.7
+    },
+    {
+      "presenca": 82.8,
+      "nota": 63.0936170212766
+    },
+    {
+      "presenca": 84.5,
+      "nota": 57.891891891891895
+    },
+    {
+      "presenca": 82.9,
+      "nota": 64.1
+    },
+    {
+      "presenca": 87.2,
+      "nota": 55.294444444444444
+    },
+    {
+      "presenca": 82.9,
+      "nota": 64.99444444444445
+    },
+    {
+      "presenca": 76.8,
+      "nota": 60.62083333333334
+    },
+    {
+      "presenca": 81.5,
+      "nota": 68.87
+    },
+    {
+      "presenca": 83.8,
+      "nota": 57.370000000000005
+    },
+    {
+      "presenca": 85.7,
+      "nota": 57.46818181818182
+    },
+    {
+      "presenca": 89.4,
+      "nota": 58.61176470588235
+    },
+    {
+      "presenca": 91.3,
+      "nota": 57.71590909090909
+    },
+    {
+      "presenca": 84.5,
+      "nota": 52.25714285714286
+    },
+    {
+      "presenca": 79.7,
+      "nota": 58.71818181818182
+    },
+    {
+      "presenca": 84.0,
+      "nota": 57.71666666666667
+    },
+    {
+      "presenca": 82.5,
+      "nota": 62.19230769230769
+    },
+    {
+      "presenca": 86.3,
+      "nota": 63.47551020408164
+    },
+    {
+      "presenca": 85.7,
+      "nota": 63.82051282051282
+    },
+    {
+      "presenca": 89.9,
+      "nota": 63.747058823529414
+    },
+    {
+      "presenca": 83.9,
+      "nota": 64.08510638297872
+    },
+    {
+      "presenca": 83.6,
+      "nota": 60.77826086956522
+    },
+    {
+      "presenca": 87.7,
+      "nota": 66.65714285714286
+    },
+    {
+      "presenca": 82.7,
+      "nota": 61.965625
+    },
+    {
+      "presenca": 93.5,
+      "nota": 61.26111111111111
+    },
+    {
+      "presenca": 87.3,
+      "nota": 63.684615384615384
+    },
+    {
+      "presenca": 78.3,
+      "nota": 62.136842105263156
+    },
+    {
+      "presenca": 92.0,
+      "nota": 64.07272727272726
+    },
+    {
+      "presenca": 88.4,
+      "nota": 63.88695652173914
+    },
+    {
+      "presenca": 84.0,
+      "nota": 63.527499999999996
+    },
+    {
+      "presenca": 86.0,
+      "nota": 65.65185185185184
+    },
+    {
+      "presenca": 89.0,
+      "nota": 61.724242424242426
+    },
+    {
+      "presenca": 80.9,
+      "nota": 63.53125
+    },
+    {
+      "presenca": 90.0,
+      "nota": 62.48333333333333
+    },
+    {
+      "presenca": 83.9,
+      "nota": 56.96111111111111
+    },
+    {
+      "presenca": 72.6,
+      "nota": 56.233333333333334
+    },
+    {
+      "presenca": 80.3,
+      "nota": 58.13076923076923
+    },
+    {
+      "presenca": 77.9,
+      "nota": 61.85348837209302
+    },
+    {
+      "presenca": 82.1,
+      "nota": 74.56
+    },
+    {
+      "presenca": 84.4,
+      "nota": 60.44285714285714
+    },
+    {
+      "presenca": 82.4,
+      "nota": 67.13888888888889
+    },
+    {
+      "presenca": 89.9,
+      "nota": 70.32727272727273
+    },
+    {
+      "presenca": 81.1,
+      "nota": 62.26086956521739
+    },
+    {
+      "presenca": 79.0,
+      "nota": 59.36666666666666
+    },
+    {
+      "presenca": 81.3,
+      "nota": 57.62857142857143
+    },
+    {
+      "presenca": 81.2,
+      "nota": 66.45384615384616
+    },
+    {
+      "presenca": 85.0,
+      "nota": 60.11739130434783
+    },
+    {
+      "presenca": 85.3,
+      "nota": 63.28333333333333
+    },
+    {
+      "presenca": 88.5,
+      "nota": 64.84615384615384
+    },
+    {
+      "presenca": 73.2,
+      "nota": 64.725
+    },
+    {
+      "presenca": 80.4,
+      "nota": 63.15185185185185
+    },
+    {
+      "presenca": 86.7,
+      "nota": 71.38333333333334
+    },
+    {
+      "presenca": 86.5,
+      "nota": 55.68
+    },
+    {
+      "presenca": 78.2,
+      "nota": 55.275
+    },
+    {
+      "presenca": 83.9,
+      "nota": 66.21538461538461
+    },
+    {
+      "presenca": 85.4,
+      "nota": 61.095652173913045
+    },
+    {
+      "presenca": 92.6,
+      "nota": 63.24583333333334
+    },
+    {
+      "presenca": 82.7,
+      "nota": 59.76829268292683
+    },
+    {
+      "presenca": 79.7,
+      "nota": 63.20526315789474
+    },
+    {
+      "presenca": 93.1,
+      "nota": 65.72777777777777
+    },
+    {
+      "presenca": 86.7,
+      "nota": 60.28709677419355
+    },
+    {
+      "presenca": 84.2,
+      "nota": 61.111111111111114
+    },
+    {
+      "presenca": 81.2,
+      "nota": 60.34615384615385
+    },
+    {
+      "presenca": 83.6,
+      "nota": 63.43703703703704
+    },
+    {
+      "presenca": 86.8,
+      "nota": 59.532
+    },
+    {
+      "presenca": 85.1,
+      "nota": 60.023529411764706
+    },
+    {
+      "presenca": 82.5,
+      "nota": 61.45
+    },
+    {
+      "presenca": 93.8,
+      "nota": 59.0
+    },
+    {
+      "presenca": 83.2,
+      "nota": 60.43333333333333
+    },
+    {
+      "presenca": 86.9,
+      "nota": 56.43589743589744
+    },
+    {
+      "presenca": 83.2,
+      "nota": 58.93333333333333
+    },
+    {
+      "presenca": 83.0,
+      "nota": 58.54666666666667
+    },
+    {
+      "presenca": 86.3,
+      "nota": 60.7075
+    },
+    {
+      "presenca": 80.6,
+      "nota": 57.911764705882355
+    },
+    {
+      "presenca": 80.3,
+      "nota": 57.5611111111111
+    },
+    {
+      "presenca": 81.5,
+      "nota": 64.59333333333333
+    },
+    {
+      "presenca": 81.8,
+      "nota": 65.47647058823529
+    },
+    {
+      "presenca": 87.0,
+      "nota": 58.729629629629635
+    },
+    {
+      "presenca": 90.7,
+      "nota": 61.54
+    },
+    {
+      "presenca": 84.9,
+      "nota": 59.38125
+    },
+    {
+      "presenca": 88.4,
+      "nota": 64.26
+    },
+    {
+      "presenca": 86.2,
+      "nota": 62.07142857142857
+    },
+    {
+      "presenca": 84.6,
+      "nota": 68.34347826086957
+    },
+    {
+      "presenca": 89.5,
+      "nota": 67.36538461538461
+    },
+    {
+      "presenca": 73.9,
+      "nota": 66.37346938775511
+    },
+    {
+      "presenca": 79.7,
+      "nota": 62.478571428571435
+    },
+    {
+      "presenca": 77.3,
+      "nota": 54.71111111111111
+    },
+    {
+      "presenca": 84.9,
+      "nota": 59.58846153846154
+    },
+    {
+      "presenca": 83.1,
+      "nota": 58.37837837837838
+    },
+    {
+      "presenca": 80.0,
+      "nota": 64.78888888888889
+    },
+    {
+      "presenca": 89.9,
+      "nota": 59.835
+    },
+    {
+      "presenca": 83.3,
+      "nota": 65.76842105263158
+    },
+    {
+      "presenca": 89.5,
+      "nota": 64.65625
+    },
+    {
+      "presenca": 81.3,
+      "nota": 56.26764705882353
+    },
+    {
+      "presenca": 87.9,
+      "nota": 65.17333333333333
+    },
+    {
+      "presenca": 81.6,
+      "nota": 56.73571428571428
+    },
+    {
+      "presenca": 88.7,
+      "nota": 61.35833333333333
+    },
+    {
+      "presenca": 79.3,
+      "nota": 60.05
+    },
+    {
+      "presenca": 80.2,
+      "nota": 63.806666666666665
+    },
+    {
+      "presenca": 84.2,
+      "nota": 61.085
+    },
+    {
+      "presenca": 87.5,
+      "nota": 68.41176470588235
+    },
+    {
+      "presenca": 85.7,
+      "nota": 54.29375
+    },
+    {
+      "presenca": 90.0,
+      "nota": 67.97391304347826
+    },
+    {
+      "presenca": 78.5,
+      "nota": 68.62142857142858
+    },
+    {
+      "presenca": 85.2,
+      "nota": 59.96153846153846
+    },
+    {
+      "presenca": 84.3,
+      "nota": 56.67368421052631
+    },
+    {
+      "presenca": 85.2,
+      "nota": 59.373333333333335
+    },
+    {
+      "presenca": 85.6,
+      "nota": 61.72857142857143
+    },
+    {
+      "presenca": 78.9,
+      "nota": 64.44285714285715
+    },
+    {
+      "presenca": 82.9,
+      "nota": 57.98076923076923
+    },
+    {
+      "presenca": 83.6,
+      "nota": 60.55882352941177
+    },
+    {
+      "presenca": 81.6,
+      "nota": 58.199999999999996
+    },
+    {
+      "presenca": 84.1,
+      "nota": 59.53181818181818
+    },
+    {
+      "presenca": 83.7,
+      "nota": 62.142857142857146
+    },
+    {
+      "presenca": 83.2,
+      "nota": 60.870588235294115
+    },
+    {
+      "presenca": 87.6,
+      "nota": 66.41052631578947
+    },
+    {
+      "presenca": 79.0,
+      "nota": 61.290909090909096
+    },
+    {
+      "presenca": 82.6,
+      "nota": 60.62682926829268
+    },
+    {
+      "presenca": 77.3,
+      "nota": 68.775
+    },
+    {
+      "presenca": 80.0,
+      "nota": 63.623999999999995
+    },
+    {
+      "presenca": 87.2,
+      "nota": 59.856249999999996
+    },
+    {
+      "presenca": 82.1,
+      "nota": 63.480000000000004
+    },
+    {
+      "presenca": 85.1,
+      "nota": 57.5125
+    },
+    {
+      "presenca": 85.9,
+      "nota": 59.07333333333334
+    },
+    {
+      "presenca": 82.9,
+      "nota": 53.45625
+    },
+    {
+      "presenca": 81.0,
+      "nota": 59.60833333333333
+    },
+    {
+      "presenca": 82.9,
+      "nota": 68.13529411764705
+    },
+    {
+      "presenca": 84.8,
+      "nota": 62.81428571428572
+    },
+    {
+      "presenca": 85.5,
+      "nota": 59.17999999999999
+    },
+    {
+      "presenca": 75.3,
+      "nota": 67.34166666666667
+    },
+    {
+      "presenca": 83.5,
+      "nota": 64.7909090909091
+    },
+    {
+      "presenca": 89.2,
+      "nota": 61.973684210526315
+    },
+    {
+      "presenca": 83.1,
+      "nota": 62.02307692307692
+    },
+    {
+      "presenca": 83.0,
+      "nota": 61.239285714285714
+    },
+    {
+      "presenca": 82.7,
+      "nota": 55.04666666666667
+    },
+    {
+      "presenca": 87.1,
+      "nota": 51.94444444444444
+    },
+    {
+      "presenca": 83.1,
+      "nota": 69.3125
+    },
+    {
+      "presenca": 72.1,
+      "nota": 63.075
+    },
+    {
+      "presenca": 87.1,
+      "nota": 57.14444444444444
+    },
+    {
+      "presenca": 83.6,
+      "nota": 57.12307692307692
+    },
+    {
+      "presenca": 77.0,
+      "nota": 51.715384615384615
+    },
+    {
+      "presenca": 87.0,
+      "nota": 58.58125
+    },
+    {
+      "presenca": 92.6,
+      "nota": 62.47692307692308
+    },
+    {
+      "presenca": 94.8,
+      "nota": 61.44117647058823
+    },
+    {
+      "presenca": 85.5,
+      "nota": 64.57
+    },
+    {
+      "presenca": 87.5,
+      "nota": 62.77777777777778
+    },
+    {
+      "presenca": 88.7,
+      "nota": 58.63225806451613
+    },
+    {
+      "presenca": 85.9,
+      "nota": 61.66153846153846
+    },
+    {
+      "presenca": 81.2,
+      "nota": 63.166666666666664
+    },
+    {
+      "presenca": 82.5,
+      "nota": 62.02
+    },
+    {
+      "presenca": 87.2,
+      "nota": 60.87619047619048
+    },
+    {
+      "presenca": 90.0,
+      "nota": 67.88888888888889
+    },
+    {
+      "presenca": 83.8,
+      "nota": 63.10952380952381
+    },
+    {
+      "presenca": 97.1,
+      "nota": 57.68666666666666
+    },
+    {
+      "presenca": 78.3,
+      "nota": 62.73571428571428
+    },
+    {
+      "presenca": 84.3,
+      "nota": 62.130434782608695
+    },
+    {
+      "presenca": 83.0,
+      "nota": 63.76363636363636
+    },
+    {
+      "presenca": 80.3,
+      "nota": 61.8
+    },
+    {
+      "presenca": 87.4,
+      "nota": 64.18666666666667
+    },
+    {
+      "presenca": 80.0,
+      "nota": 55.114285714285714
+    },
+    {
+      "presenca": 88.2,
+      "nota": 55.55714285714286
+    },
+    {
+      "presenca": 86.2,
+      "nota": 63.17857142857143
+    },
+    {
+      "presenca": 80.6,
+      "nota": 67.39999999999999
+    },
+    {
+      "presenca": 83.3,
+      "nota": 67.09473684210526
+    },
+    {
+      "presenca": 86.0,
+      "nota": 62.596428571428575
+    },
+    {
+      "presenca": 76.5,
+      "nota": 51.49230769230769
+    },
+    {
+      "presenca": 87.0,
+      "nota": 58.486666666666665
+    },
+    {
+      "presenca": 75.8,
+      "nota": 61.02307692307693
+    },
+    {
+      "presenca": 90.0,
+      "nota": 64.40555555555555
+    },
+    {
+      "presenca": 86.5,
+      "nota": 58.65384615384615
+    },
+    {
+      "presenca": 87.9,
+      "nota": 55.815
+    },
+    {
+      "presenca": 78.6,
+      "nota": 71.15
+    },
+    {
+      "presenca": 82.6,
+      "nota": 63.04210526315789
+    },
+    {
+      "presenca": 87.3,
+      "nota": 60.754999999999995
+    },
+    {
+      "presenca": 90.4,
+      "nota": 56.09444444444445
+    },
+    {
+      "presenca": 83.0,
+      "nota": 59.06666666666667
+    },
+    {
+      "presenca": 78.5,
+      "nota": 50.60740740740741
+    },
+    {
+      "presenca": 79.6,
+      "nota": 64.30666666666667
+    },
+    {
+      "presenca": 75.0,
+      "nota": 58.46
+    },
+    {
+      "presenca": 80.6,
+      "nota": 63.38333333333334
+    },
+    {
+      "presenca": 81.7,
+      "nota": 59.472727272727276
+    },
+    {
+      "presenca": 84.8,
+      "nota": 58.36086956521739
+    },
+    {
+      "presenca": 84.4,
+      "nota": 55.986666666666665
+    },
+    {
+      "presenca": 92.1,
+      "nota": 58.12432432432432
+    },
+    {
+      "presenca": 89.2,
+      "nota": 63.39333333333333
+    },
+    {
+      "presenca": 83.4,
+      "nota": 60.74615384615385
+    },
+    {
+      "presenca": 76.3,
+      "nota": 62.3
+    },
+    {
+      "presenca": 87.5,
+      "nota": 59.699999999999996
+    },
+    {
+      "presenca": 90.3,
+      "nota": 66.78333333333333
+    },
+    {
+      "presenca": 82.1,
+      "nota": 61.9
+    },
+    {
+      "presenca": 85.4,
+      "nota": 56.86666666666667
+    },
+    {
+      "presenca": 78.8,
+      "nota": 63.75454545454545
+    },
+    {
+      "presenca": 81.6,
+      "nota": 57.584090909090904
+    },
+    {
+      "presenca": 84.3,
+      "nota": 53.638461538461534
+    },
+    {
+      "presenca": 77.6,
+      "nota": 64.88235294117646
+    },
+    {
+      "presenca": 81.9,
+      "nota": 64.49
+    },
+    {
+      "presenca": 82.3,
+      "nota": 59.95277777777778
+    },
+    {
+      "presenca": 75.6,
+      "nota": 55.333333333333336
+    },
+    {
+      "presenca": 74.1,
+      "nota": 64.388
+    },
+    {
+      "presenca": 81.7,
+      "nota": 60.2037037037037
+    },
+    {
+      "presenca": 85.1,
+      "nota": 52.42916666666667
+    },
+    {
+      "presenca": 86.4,
+      "nota": 57.63125
+    },
+    {
+      "presenca": 82.4,
+      "nota": 65.17083333333333
+    },
+    {
+      "presenca": 85.3,
+      "nota": 56.99090909090909
+    },
+    {
+      "presenca": 84.6,
+      "nota": 62.5923076923077
+    },
+    {
+      "presenca": 89.3,
+      "nota": 59.82166666666667
+    },
+    {
+      "presenca": 83.2,
+      "nota": 67.07894736842105
+    },
+    {
+      "presenca": 81.7,
+      "nota": 60.27
+    },
+    {
+      "presenca": 80.9,
+      "nota": 63.896153846153844
+    },
+    {
+      "presenca": 79.7,
+      "nota": 58.747058823529414
+    },
+    {
+      "presenca": 88.7,
+      "nota": 62.979166666666664
+    },
+    {
+      "presenca": 84.2,
+      "nota": 54.160869565217396
+    },
+    {
+      "presenca": 84.8,
+      "nota": 58.7
+    },
+    {
+      "presenca": 82.2,
+      "nota": 71.08666666666666
+    },
+    {
+      "presenca": 84.8,
+      "nota": 67.95333333333333
+    },
+    {
+      "presenca": 85.5,
+      "nota": 65.10714285714286
+    },
+    {
+      "presenca": 83.8,
+      "nota": 63.536
+    },
+    {
+      "presenca": 86.4,
+      "nota": 66.4
+    },
+    {
+      "presenca": 86.0,
+      "nota": 62.4974358974359
+    },
+    {
+      "presenca": 84.2,
+      "nota": 55.26153846153846
+    },
+    {
+      "presenca": 79.3,
+      "nota": 63.91875
+    },
+    {
+      "presenca": 78.9,
+      "nota": 61.57692307692308
+    },
+    {
+      "presenca": 79.2,
+      "nota": 64.0
+    },
+    {
+      "presenca": 78.7,
+      "nota": 58.8125
+    },
+    {
+      "presenca": 80.3,
+      "nota": 58.34615384615385
+    },
+    {
+      "presenca": 83.5,
+      "nota": 57.33043478260869
+    },
+    {
+      "presenca": 86.1,
+      "nota": 58.199999999999996
+    },
+    {
+      "presenca": 82.2,
+      "nota": 63.769354838709674
+    },
+    {
+      "presenca": 83.8,
+      "nota": 67.2090909090909
+    },
+    {
+      "presenca": 77.9,
+      "nota": 48.5375
+    },
+    {
+      "presenca": 84.5,
+      "nota": 58.11304347826086
+    },
+    {
+      "presenca": 83.8,
+      "nota": 66.42142857142856
+    },
+    {
+      "presenca": 91.7,
+      "nota": 57.15625
+    },
+    {
+      "presenca": 86.4,
+      "nota": 56.88095238095238
+    },
+    {
+      "presenca": 86.9,
+      "nota": 59.528
+    },
+    {
+      "presenca": 78.4,
+      "nota": 61.8375
+    },
+    {
+      "presenca": 86.5,
+      "nota": 61.300000000000004
+    },
+    {
+      "presenca": 82.6,
+      "nota": 61.05
+    },
+    {
+      "presenca": 88.0,
+      "nota": 66.54666666666667
+    },
+    {
+      "presenca": 81.7,
+      "nota": 66.72631578947369
+    },
+    {
+      "presenca": 85.9,
+      "nota": 62.693333333333335
+    },
+    {
+      "presenca": 87.3,
+      "nota": 56.84117647058823
+    },
+    {
+      "presenca": 80.6,
+      "nota": 61.4076923076923
+    },
+    {
+      "presenca": 83.9,
+      "nota": 56.86086956521739
+    },
+    {
+      "presenca": 87.1,
+      "nota": 67.44666666666667
+    },
+    {
+      "presenca": 85.1,
+      "nota": 61.272549019607844
+    },
+    {
+      "presenca": 90.6,
+      "nota": 60.61666666666667
+    },
+    {
+      "presenca": 90.5,
+      "nota": 59.65625
+    },
+    {
+      "presenca": 89.3,
+      "nota": 56.3625
+    },
+    {
+      "presenca": 78.9,
+      "nota": 63.61612903225806
+    },
+    {
+      "presenca": 70.3,
+      "nota": 64.075
+    },
+    {
+      "presenca": 85.3,
+      "nota": 60.69285714285714
+    },
+    {
+      "presenca": 80.2,
+      "nota": 63.300000000000004
+    },
+    {
+      "presenca": 88.5,
+      "nota": 65.56153846153846
+    },
+    {
+      "presenca": 81.0,
+      "nota": 66.16153846153847
+    },
+    {
+      "presenca": 84.5,
+      "nota": 58.4375
+    },
+    {
+      "presenca": 87.8,
+      "nota": 63.13809523809524
+    },
+    {
+      "presenca": 76.2,
+      "nota": 67.32727272727273
+    },
+    {
+      "presenca": 86.9,
+      "nota": 62.1
+    },
+    {
+      "presenca": 84.9,
+      "nota": 61.43571428571429
+    },
+    {
+      "presenca": 88.2,
+      "nota": 62.15416666666667
+    },
+    {
+      "presenca": 86.1,
+      "nota": 58.74375
+    },
+    {
+      "presenca": 82.5,
+      "nota": 56.9030303030303
+    },
+    {
+      "presenca": 86.7,
+      "nota": 61.71333333333334
+    },
+    {
+      "presenca": 87.7,
+      "nota": 61.91875
+    },
+    {
+      "presenca": 78.3,
+      "nota": 58.71739130434783
+    },
+    {
+      "presenca": 87.4,
+      "nota": 59.628571428571426
+    },
+    {
+      "presenca": 84.7,
+      "nota": 60.358620689655176
+    },
+    {
+      "presenca": 91.4,
+      "nota": 59.49473684210527
+    },
+    {
+      "presenca": 86.8,
+      "nota": 58.88333333333333
+    },
+    {
+      "presenca": 84.5,
+      "nota": 61.75882352941177
+    },
+    {
+      "presenca": 84.1,
+      "nota": 58.38333333333333
+    },
+    {
+      "presenca": 80.0,
+      "nota": 55.77272727272727
+    },
+    {
+      "presenca": 82.1,
+      "nota": 60.896
+    },
+    {
+      "presenca": 84.7,
+      "nota": 61.00952380952381
+    },
+    {
+      "presenca": 85.5,
+      "nota": 60.89375
+    },
+    {
+      "presenca": 87.7,
+      "nota": 68.03333333333333
+    },
+    {
+      "presenca": 90.2,
+      "nota": 47.04
+    },
+    {
+      "presenca": 86.4,
+      "nota": 67.85714285714286
+    },
+    {
+      "presenca": 79.5,
+      "nota": 54.614999999999995
+    },
+    {
+      "presenca": 84.8,
+      "nota": 68.98333333333333
+    },
+    {
+      "presenca": 90.0,
+      "nota": 63.27142857142857
+    },
+    {
+      "presenca": 74.4,
+      "nota": 61.7125
+    },
+    {
+      "presenca": 85.9,
+      "nota": 54.39166666666667
+    },
+    {
+      "presenca": 87.5,
+      "nota": 64.83684210526316
+    },
+    {
+      "presenca": 86.3,
+      "nota": 52.542857142857144
+    },
+    {
+      "presenca": 85.0,
+      "nota": 57.778571428571425
+    },
+    {
+      "presenca": 79.7,
+      "nota": 58.61578947368421
+    },
+    {
+      "presenca": 80.9,
+      "nota": 68.40555555555555
+    },
+    {
+      "presenca": 81.5,
+      "nota": 58.18478260869565
+    },
+    {
+      "presenca": 79.3,
+      "nota": 63.18695652173913
+    },
+    {
+      "presenca": 82.7,
+      "nota": 60.36875
+    },
+    {
+      "presenca": 80.4,
+      "nota": 62.08148148148148
+    },
+    {
+      "presenca": 87.5,
+      "nota": 64.04375
+    },
+    {
+      "presenca": 90.0,
+      "nota": 54.9
+    },
+    {
+      "presenca": 85.5,
+      "nota": 62.81071428571429
+    },
+    {
+      "presenca": 77.4,
+      "nota": 68.06666666666666
+    },
+    {
+      "presenca": 84.5,
+      "nota": 58.98888888888889
+    },
+    {
+      "presenca": 79.7,
+      "nota": 59.60222222222222
+    },
+    {
+      "presenca": 86.9,
+      "nota": 64.53823529411765
+    },
+    {
+      "presenca": 83.3,
+      "nota": 66.10714285714286
+    },
+    {
+      "presenca": 79.9,
+      "nota": 63.14754098360656
+    },
+    {
+      "presenca": 83.7,
+      "nota": 59.05
+    },
+    {
+      "presenca": 81.4,
+      "nota": 62.06818181818182
+    },
+    {
+      "presenca": 80.8,
+      "nota": 66.90357142857142
+    },
+    {
+      "presenca": 83.6,
+      "nota": 62.63636363636363
+    },
+    {
+      "presenca": 84.3,
+      "nota": 60.65263157894737
+    },
+    {
+      "presenca": 87.5,
+      "nota": 62.91875
+    },
+    {
+      "presenca": 81.6,
+      "nota": 52.605555555555554
+    },
+    {
+      "presenca": 82.4,
+      "nota": 53.215384615384615
+    },
+    {
+      "presenca": 80.6,
+      "nota": 63.69347826086957
+    },
+    {
+      "presenca": 84.8,
+      "nota": 64.48181818181818
+    },
+    {
+      "presenca": 82.3,
+      "nota": 65.69333333333333
+    },
+    {
+      "presenca": 84.3,
+      "nota": 58.65263157894737
+    },
+    {
+      "presenca": 73.8,
+      "nota": 59.925000000000004
+    },
+    {
+      "presenca": 85.3,
+      "nota": 64.36129032258064
+    },
+    {
+      "presenca": 87.3,
+      "nota": 59.163157894736834
+    },
+    {
+      "presenca": 86.1,
+      "nota": 61.66470588235294
+    },
+    {
+      "presenca": 84.4,
+      "nota": 55.60666666666667
+    },
+    {
+      "presenca": 86.3,
+      "nota": 59.08125
+    },
+    {
+      "presenca": 87.4,
+      "nota": 57.57333333333334
+    },
+    {
+      "presenca": 82.1,
+      "nota": 61.43333333333333
+    },
+    {
+      "presenca": 85.1,
+      "nota": 58.43600000000001
+    },
+    {
+      "presenca": 84.7,
+      "nota": 56.97586206896552
+    },
+    {
+      "presenca": 81.7,
+      "nota": 65.94736842105263
+    },
+    {
+      "presenca": 74.5,
+      "nota": 60.104
+    },
+    {
+      "presenca": 92.7,
+      "nota": 60.900000000000006
+    },
+    {
+      "presenca": 82.9,
+      "nota": 67.19
+    },
+    {
+      "presenca": 89.5,
+      "nota": 62.56428571428571
+    },
+    {
+      "presenca": 85.9,
+      "nota": 63.470588235294116
+    },
+    {
+      "presenca": 81.0,
+      "nota": 56.01428571428571
+    },
+    {
+      "presenca": 80.6,
+      "nota": 58.70666666666667
+    },
+    {
+      "presenca": 86.7,
+      "nota": 73.11999999999999
+    },
+    {
+      "presenca": 84.8,
+      "nota": 62.21944444444445
+    },
+    {
+      "presenca": 76.2,
+      "nota": 58.324000000000005
+    },
+    {
+      "presenca": 84.7,
+      "nota": 65.9590909090909
+    },
+    {
+      "presenca": 77.0,
+      "nota": 58.09473684210526
+    },
+    {
+      "presenca": 87.4,
+      "nota": 54.98823529411764
+    },
+    {
+      "presenca": 84.6,
+      "nota": 55.67333333333333
+    },
+    {
+      "presenca": 82.5,
+      "nota": 59.91363636363637
+    },
+    {
+      "presenca": 86.6,
+      "nota": 59.43333333333333
+    },
+    {
+      "presenca": 89.7,
+      "nota": 64.33571428571429
+    },
+    {
+      "presenca": 93.8,
+      "nota": 59.16153846153846
+    },
+    {
+      "presenca": 90.3,
+      "nota": 61.2
+    },
+    {
+      "presenca": 79.4,
+      "nota": 61.703125
+    },
+    {
+      "presenca": 78.8,
+      "nota": 59.92121212121212
+    },
+    {
+      "presenca": 81.8,
+      "nota": 60.565384615384616
+    },
+    {
+      "presenca": 76.6,
+      "nota": 59.34117647058824
+    },
+    {
+      "presenca": 73.2,
+      "nota": 57.4
+    },
+    {
+      "presenca": 78.8,
+      "nota": 62.75
+    },
+    {
+      "presenca": 84.7,
+      "nota": 67.73157894736842
+    },
+    {
+      "presenca": 85.8,
+      "nota": 59.714285714285715
+    },
+    {
+      "presenca": 82.7,
+      "nota": 60.445454545454545
+    },
+    {
+      "presenca": 78.3,
+      "nota": 59.46470588235294
+    },
+    {
+      "presenca": 83.9,
+      "nota": 68.45416666666667
+    },
+    {
+      "presenca": 79.5,
+      "nota": 66.8
+    },
+    {
+      "presenca": 81.1,
+      "nota": 63.33125
+    },
+    {
+      "presenca": 87.8,
+      "nota": 63.30833333333334
+    },
+    {
+      "presenca": 77.6,
+      "nota": 59.65625
+    },
+    {
+      "presenca": 85.5,
+      "nota": 64.51111111111112
+    },
+    {
+      "presenca": 82.9,
+      "nota": 54.92666666666666
+    },
+    {
+      "presenca": 82.3,
+      "nota": 55.542857142857144
+    },
+    {
+      "presenca": 78.6,
+      "nota": 65.40555555555555
+    },
+    {
+      "presenca": 82.3,
+      "nota": 61.056097560975616
+    },
+    {
+      "presenca": 81.7,
+      "nota": 55.85
+    },
+    {
+      "presenca": 88.5,
+      "nota": 60.46
+    },
+    {
+      "presenca": 84.1,
+      "nota": 58.052
+    },
+    {
+      "presenca": 80.2,
+      "nota": 64.5764705882353
+    },
+    {
+      "presenca": 84.3,
+      "nota": 62.23684210526316
+    },
+    {
+      "presenca": 92.5,
+      "nota": 60.629999999999995
+    },
+    {
+      "presenca": 86.2,
+      "nota": 58.96666666666667
+    },
+    {
+      "presenca": 81.7,
+      "nota": 67.33333333333333
+    },
+    {
+      "presenca": 80.0,
+      "nota": 60.868
+    },
+    {
+      "presenca": 83.3,
+      "nota": 63.3
+    },
+    {
+      "presenca": 77.9,
+      "nota": 59.51304347826087
+    },
+    {
+      "presenca": 87.0,
+      "nota": 65.95555555555556
+    },
+    {
+      "presenca": 86.0,
+      "nota": 60.565625
+    },
+    {
+      "presenca": 82.4,
+      "nota": 62.43928571428571
+    },
+    {
+      "presenca": 78.9,
+      "nota": 52.90909090909091
+    },
+    {
+      "presenca": 82.9,
+      "nota": 62.637499999999996
+    },
+    {
+      "presenca": 82.7,
+      "nota": 61.84074074074074
+    },
+    {
+      "presenca": 71.7,
+      "nota": 57.30952380952381
+    },
+    {
+      "presenca": 84.3,
+      "nota": 55.44500000000001
+    },
+    {
+      "presenca": 85.4,
+      "nota": 56.135714285714286
+    },
+    {
+      "presenca": 80.9,
+      "nota": 57.627272727272725
+    },
+    {
+      "presenca": 79.2,
+      "nota": 66.33157894736841
+    },
+    {
+      "presenca": 72.6,
+      "nota": 64.4235294117647
+    },
+    {
+      "presenca": 89.4,
+      "nota": 59.75
+    },
+    {
+      "presenca": 80.5,
+      "nota": 58.15
+    },
+    {
+      "presenca": 84.0,
+      "nota": 59.772222222222226
+    },
+    {
+      "presenca": 83.6,
+      "nota": 57.303125
+    },
+    {
+      "presenca": 76.7,
+      "nota": 60.11818181818182
+    },
+    {
+      "presenca": 83.1,
+      "nota": 64.28421052631579
+    },
+    {
+      "presenca": 83.9,
+      "nota": 54.67333333333333
+    },
+    {
+      "presenca": 86.5,
+      "nota": 60.12083333333334
+    },
+    {
+      "presenca": 87.5,
+      "nota": 58.268085106382976
+    },
+    {
+      "presenca": 81.2,
+      "nota": 71.41818181818182
+    },
+    {
+      "presenca": 80.7,
+      "nota": 60.574999999999996
+    },
+    {
+      "presenca": 88.4,
+      "nota": 56.86
+    },
+    {
+      "presenca": 87.7,
+      "nota": 62.94444444444444
+    },
+    {
+      "presenca": 82.5,
+      "nota": 61.26470588235294
+    },
+    {
+      "presenca": 90.9,
+      "nota": 68.325
+    },
+    {
+      "presenca": 84.8,
+      "nota": 55.345000000000006
+    },
+    {
+      "presenca": 78.8,
+      "nota": 59.79736842105264
+    },
+    {
+      "presenca": 84.1,
+      "nota": 65.86
+    },
+    {
+      "presenca": 79.8,
+      "nota": 63.13076923076923
+    },
+    {
+      "presenca": 84.6,
+      "nota": 65.67037037037036
+    },
+    {
+      "presenca": 85.2,
+      "nota": 65.65555555555555
+    },
+    {
+      "presenca": 89.1,
+      "nota": 56.37692307692308
+    },
+    {
+      "presenca": 80.3,
+      "nota": 67.47999999999999
+    },
+    {
+      "presenca": 81.6,
+      "nota": 64.99
+    },
+    {
+      "presenca": 92.0,
+      "nota": 62.40526315789474
+    },
+    {
+      "presenca": 82.9,
+      "nota": 57.400000000000006
+    },
+    {
+      "presenca": 87.2,
+      "nota": 61.625
+    },
+    {
+      "presenca": 80.9,
+      "nota": 61.927499999999995
+    },
+    {
+      "presenca": 85.1,
+      "nota": 59.32666666666667
+    },
+    {
+      "presenca": 85.5,
+      "nota": 57.00833333333333
+    },
+    {
+      "presenca": 87.0,
+      "nota": 57.75185185185185
+    },
+    {
+      "presenca": 81.5,
+      "nota": 62.4
+    },
+    {
+      "presenca": 81.3,
+      "nota": 68.8
+    },
+    {
+      "presenca": 82.1,
+      "nota": 51.73636363636364
+    },
+    {
+      "presenca": 80.9,
+      "nota": 65.06875
+    },
+    {
+      "presenca": 81.6,
+      "nota": 59.53333333333334
+    },
+    {
+      "presenca": 87.5,
+      "nota": 63.3125
+    },
+    {
+      "presenca": 80.0,
+      "nota": 64.16595744680852
+    },
+    {
+      "presenca": 82.7,
+      "nota": 60.65
+    },
+    {
+      "presenca": 89.7,
+      "nota": 70.04285714285714
+    },
+    {
+      "presenca": 85.7,
+      "nota": 72.62352941176471
+    },
+    {
+      "presenca": 76.4,
+      "nota": 60.80833333333334
+    },
+    {
+      "presenca": 84.5,
+      "nota": 56.370000000000005
+    },
+    {
+      "presenca": 79.8,
+      "nota": 55.7625
+    },
+    {
+      "presenca": 85.5,
+      "nota": 65.3076923076923
+    },
+    {
+      "presenca": 91.5,
+      "nota": 61.050000000000004
+    },
+    {
+      "presenca": 90.6,
+      "nota": 58.50666666666667
+    },
+    {
+      "presenca": 85.4,
+      "nota": 66.12058823529412
+    },
+    {
+      "presenca": 85.5,
+      "nota": 63.792857142857144
+    },
+    {
+      "presenca": 82.0,
+      "nota": 60.25333333333333
+    },
+    {
+      "presenca": 79.7,
+      "nota": 54.92352941176471
+    },
+    {
+      "presenca": 82.8,
+      "nota": 67.80434782608695
+    },
+    {
+      "presenca": 85.9,
+      "nota": 60.61923076923077
+    },
+    {
+      "presenca": 81.0,
+      "nota": 63.178947368421056
+    },
+    {
+      "presenca": 78.5,
+      "nota": 64.38125
+    },
+    {
+      "presenca": 85.2,
+      "nota": 56.1
+    },
+    {
+      "presenca": 88.4,
+      "nota": 58.800000000000004
+    },
+    {
+      "presenca": 75.5,
+      "nota": 63.86
+    },
+    {
+      "presenca": 85.9,
+      "nota": 55.925000000000004
+    },
+    {
+      "presenca": 81.3,
+      "nota": 64.8
+    },
+    {
+      "presenca": 78.8,
+      "nota": 64.29565217391304
+    },
+    {
+      "presenca": 80.3,
+      "nota": 56.134482758620685
+    },
+    {
+      "presenca": 82.2,
+      "nota": 66.44583333333334
+    },
+    {
+      "presenca": 84.5,
+      "nota": 63.70399999999999
+    },
+    {
+      "presenca": 81.7,
+      "nota": 60.486666666666665
+    },
+    {
+      "presenca": 92.6,
+      "nota": 64.12777777777778
+    },
+    {
+      "presenca": 83.1,
+      "nota": 53.9
+    },
+    {
+      "presenca": 81.9,
+      "nota": 63.652941176470584
+    },
+    {
+      "presenca": 82.3,
+      "nota": 70.49285714285715
+    },
+    {
+      "presenca": 84.4,
+      "nota": 70.06
+    },
+    {
+      "presenca": 84.3,
+      "nota": 58.63913043478261
+    },
+    {
+      "presenca": 84.6,
+      "nota": 57.81333333333334
+    },
+    {
+      "presenca": 91.7,
+      "nota": 63.50869565217391
+    },
+    {
+      "presenca": 82.2,
+      "nota": 62.50454545454545
+    },
+    {
+      "presenca": 81.2,
+      "nota": 65.31333333333333
+    },
+    {
+      "presenca": 89.4,
+      "nota": 56.21666666666667
+    },
+    {
+      "presenca": 84.1,
+      "nota": 65.53571428571429
+    },
+    {
+      "presenca": 80.8,
+      "nota": 65.095
+    },
+    {
+      "presenca": 89.2,
+      "nota": 63.192
+    },
+    {
+      "presenca": 82.7,
+      "nota": 59.4421052631579
+    },
+    {
+      "presenca": 79.8,
+      "nota": 60.328
+    },
+    {
+      "presenca": 89.8,
+      "nota": 63.527272727272724
+    },
+    {
+      "presenca": 80.8,
+      "nota": 54.79
+    },
+    {
+      "presenca": 83.9,
+      "nota": 56.89166666666667
+    },
+    {
+      "presenca": 84.8,
+      "nota": 64.26153846153846
+    },
+    {
+      "presenca": 83.9,
+      "nota": 58.67142857142857
+    },
+    {
+      "presenca": 81.6,
+      "nota": 64.64736842105263
+    },
+    {
+      "presenca": 86.4,
+      "nota": 64.35384615384615
+    }
+  ],
+  "q3_materia": [
+    {
+      "materia_declarada": "Filosofia",
+      "n_matriculas": 789,
+      "nota_diagnostico_media": 59.0,
+      "taxa_conclusao_pct": 70.6,
+      "n_resultados": 1874,
+      "nota_simulado_media": 61.5,
+      "taxa_finalizacao_pct": 84.6
+    },
+    {
+      "materia_declarada": "Matemática",
+      "n_matriculas": 1027,
+      "nota_diagnostico_media": 58.7,
+      "taxa_conclusao_pct": 71.1,
+      "n_resultados": 2043,
+      "nota_simulado_media": 60.9,
+      "taxa_finalizacao_pct": 84.8
+    },
+    {
+      "materia_declarada": "Geografia",
+      "n_matriculas": 783,
+      "nota_diagnostico_media": 58.5,
+      "taxa_conclusao_pct": 69.6,
+      "n_resultados": 1935,
+      "nota_simulado_media": 60.7,
+      "taxa_finalizacao_pct": 83.9
+    },
+    {
+      "materia_declarada": "Português",
+      "n_matriculas": 1026,
+      "nota_diagnostico_media": 58.5,
+      "taxa_conclusao_pct": 69.0,
+      "n_resultados": 1937,
+      "nota_simulado_media": 62.0,
+      "taxa_finalizacao_pct": 85.9
+    },
+    {
+      "materia_declarada": "Inglês",
+      "n_matriculas": 829,
+      "nota_diagnostico_media": 58.1,
+      "taxa_conclusao_pct": 68.4,
+      "n_resultados": 1820,
+      "nota_simulado_media": 61.3,
+      "taxa_finalizacao_pct": 84.5
+    },
+    {
+      "materia_declarada": "Redação",
+      "n_matriculas": 1027,
+      "nota_diagnostico_media": 58.1,
+      "taxa_conclusao_pct": 68.8,
+      "n_resultados": 1895,
+      "nota_simulado_media": null,
+      "taxa_finalizacao_pct": 85.1
+    },
+    {
+      "materia_declarada": "Biologia",
+      "n_matriculas": 805,
+      "nota_diagnostico_media": 57.9,
+      "taxa_conclusao_pct": 71.1,
+      "n_resultados": 1987,
+      "nota_simulado_media": 61.2,
+      "taxa_finalizacao_pct": 85.3
+    },
+    {
+      "materia_declarada": "Química",
+      "n_matriculas": 775,
+      "nota_diagnostico_media": 57.7,
+      "taxa_conclusao_pct": 69.9,
+      "n_resultados": 1976,
+      "nota_simulado_media": 61.4,
+      "taxa_finalizacao_pct": 85.3
+    },
+    {
+      "materia_declarada": "História",
+      "n_matriculas": 784,
+      "nota_diagnostico_media": 57.7,
+      "taxa_conclusao_pct": 74.4,
+      "n_resultados": 1972,
+      "nota_simulado_media": 61.5,
+      "taxa_finalizacao_pct": 85.0
+    },
+    {
+      "materia_declarada": "Física",
+      "n_matriculas": 806,
+      "nota_diagnostico_media": 57.4,
+      "taxa_conclusao_pct": 67.6,
+      "n_resultados": 2121,
+      "nota_simulado_media": 61.0,
+      "taxa_finalizacao_pct": 85.7
+    },
+    {
+      "materia_declarada": "Sociologia",
+      "n_matriculas": 801,
+      "nota_diagnostico_media": 56.7,
+      "taxa_conclusao_pct": 68.8,
+      "n_resultados": 1950,
+      "nota_simulado_media": 60.8,
+      "taxa_finalizacao_pct": 85.6
+    }
+  ]
+}

@@ -95,7 +95,7 @@ Duas versões disponíveis para demonstração:
 
 ## 🧭 Decisões técnicas e analíticas relevantes
 
-### 1. Natureza da base fornecida 
+### 1. Natureza da base fornecida
 
 A planilha entrega **amostras**, não a base completa (isso está explícito na aba
 `Resumo`). Ao investigar, descobri que:

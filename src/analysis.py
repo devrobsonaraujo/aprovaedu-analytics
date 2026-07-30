@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Análises obrigatórias - AprovaEdu Analytics
+Análises obrigatórias - AprovaEdu Analytics (Base de Dados Completa)
 Lê a base tratada (data/processed) e responde às 4 perguntas do desafio,
 gerando figuras (outputs/figures) e um resumo de métricas (docs/metricas.json).
 """
@@ -38,19 +38,17 @@ fact_resultados = pd.read_csv(PROC / "fact_resultados_sim.csv")
 fact_aulas = pd.read_csv(PROC / "fact_aulas.csv")
 fact_presencas = pd.read_csv(PROC / "fact_presencas.csv")
 
-SCALE_MATRICULAS = 9452 / len(fact_matriculas)  # 500 linhas na amostra -> 9452 na base completa
-
 # ===========================================================================
 # Q1 — Evolução da taxa de aprovação ao longo dos anos
 # ===========================================================================
 print("== Q1: evolução da taxa de aprovação ==")
 
 aprov_por_ano = fact_aprovacoes.groupby("ano_vestibular")["aluno_id"].nunique().rename("aprovados")
-matric_alunos_por_ano = fact_matriculas.groupby("ano")["aluno_id"].nunique().rename("alunos_matriculados_amostra")
+matric_alunos_por_ano = fact_matriculas.groupby("ano")["aluno_id"].nunique().rename("alunos_matriculados")
 
 q1 = pd.concat([aprov_por_ano, matric_alunos_por_ano], axis=1)
-q1["alunos_matriculados_estimado"] = (q1["alunos_matriculados_amostra"] * SCALE_MATRICULAS).round(0)
-q1["taxa_aprovacao_estimada_%"] = (q1["aprovados"] / q1["alunos_matriculados_estimado"] * 100).round(1)
+# Cálculo da taxa real de aprovação (base populacional completa)
+q1["taxa_aprovacao_%"] = (q1["aprovados"] / q1["alunos_matriculados"] * 100).round(1)
 q1["variacao_aprovados_%"] = q1["aprovados"].pct_change().mul(100).round(1)
 print(q1)
 
@@ -67,15 +65,15 @@ for x, y in zip(q1.index.astype(str), q1["aprovados"]):
     ax1.annotate(str(y), (x, y), ha="center", va="bottom", fontsize=10)
 
 ax2 = ax1.twinx()
-ax2.plot(q1.index.astype(str), q1["taxa_aprovacao_estimada_%"], color=COLOR_ACCENT,
-         marker="o", linewidth=2, label="Taxa estimada (%) — proxy, ver nota")
-ax2.set_ylabel("Taxa de aprovação estimada (%)", color=COLOR_ACCENT)
-ax1.set_title("Evolução das aprovações: nº absoluto (barras) e taxa estimada (linha)")
+ax2.plot(q1.index.astype(str), q1["taxa_aprovacao_%"], color=COLOR_ACCENT,
+         marker="o", linewidth=2, label="Taxa de aprovação real (%)")
+ax2.set_ylabel("Taxa de aprovação real (%)", color=COLOR_ACCENT)
+ax1.set_title("Evolução das aprovações: nº absoluto (barras) e taxa real (linha)")
 fig.tight_layout()
 fig.savefig(FIG / "q1_evolucao_aprovacoes.png", dpi=150)
 plt.close(fig)
 
-# aprovações por universidade / modalidade (contexto adicional)
+# Aprovações por universidade / modalidade
 apr_uni = fact_aprovacoes["universidade"].value_counts()
 apr_bolsa = fact_aprovacoes["bolsa_aprovacao"].value_counts(normalize=True).mul(100).round(1)
 metrics["q1_aprovacoes_por_universidade"] = apr_uni.to_dict()
@@ -94,7 +92,7 @@ plt.close(fig)
 # ===========================================================================
 print("\n== Q2: presença x aprovação ==")
 
-# taxa de presença por aluno: Presente/Atrasado contam como presença efetiva
+# Taxa de presença por aluno: Presente/Atrasado contam como presença efetiva
 freq_status = fact_presencas.copy()
 freq_status["presente_efetivo"] = freq_status["status_presenca"].isin(["Presente", "Atrasado"]).astype(int)
 attendance = freq_status.groupby("aluno_id").agg(
@@ -107,7 +105,7 @@ metrics["q2_n_alunos_com_registro_presenca"] = int(len(attendance))
 metrics["q2_taxa_presenca_media_%"] = round(attendance["taxa_presenca_%"].mean(), 1)
 metrics["q2_taxa_presenca_mediana_%"] = round(attendance["taxa_presenca_%"].median(), 1)
 
-# aprovado (alguma vez, na base completa de aprovações)
+# Status de aprovação na base completa
 aprovados_ids = set(fact_aprovacoes["aluno_id"].unique())
 attendance["aprovado"] = attendance["aluno_id"].isin(aprovados_ids)
 
@@ -148,14 +146,14 @@ bp = ax.boxplot(data_box, patch_artist=True, widths=0.5)
 for patch, color in zip(bp["boxes"], [COLOR_ACCENT, COLOR_PRIMARY]):
     patch.set_facecolor(color)
     patch.set_alpha(0.7)
-ax.set_xticklabels([f"Não aprovado\n(n={n_nao})", f"Aprovado\n(n={n_aprov})"])
+ax.set_xticklabels([f"Não aprovado\n(N={n_nao})", f"Aprovado\n(N={n_aprov})"])
 ax.set_ylabel("Taxa de presença (%)")
-ax.set_title(f"Presença nas aulas x aprovação (amostra, n={len(attendance)} alunos)")
+ax.set_title(f"Presença nas aulas x aprovação (N={len(attendance)} alunos)")
 fig.tight_layout()
 fig.savefig(FIG / "q2_presenca_aprovacao_boxplot.png", dpi=150)
 plt.close(fig)
 
-# Triangulação: presença x desempenho em simulados (n maior, mesma safra 2021)
+# Presença x Desempenho em Simulados
 res_aluno = fact_resultados.groupby("aluno_id")["nota"].mean().rename("nota_media_simulado")
 att_res = attendance.merge(res_aluno, on="aluno_id", how="inner")
 metrics["q2b_n_presenca_x_simulado"] = int(len(att_res))
@@ -163,7 +161,7 @@ if len(att_res) > 2:
     corr, p_corr = stats.pearsonr(att_res["taxa_presenca_%"], att_res["nota_media_simulado"].fillna(att_res["nota_media_simulado"].mean()))
     metrics["q2b_correlacao_presenca_nota_simulado"] = round(float(corr), 3)
     metrics["q2b_p_valor"] = round(float(p_corr), 4)
-    print(f"Correlação presença x nota simulado (n={len(att_res)}): r={round(float(corr), 3)}, p={round(float(p_corr), 4)}")
+    print(f"Correlação presença x nota simulado (N={len(att_res)}): r={round(float(corr), 3)}, p={round(float(p_corr), 4)}")
 
 fig, ax = plt.subplots(figsize=(6, 4.5))
 ax.scatter(att_res["taxa_presenca_%"], att_res["nota_media_simulado"], color=COLOR_PRIMARY, alpha=0.7)
@@ -173,7 +171,7 @@ if len(att_res) > 2:
     ax.plot(xs, np.polyval(z, xs), color=COLOR_ACCENT, linewidth=2)
 ax.set_xlabel("Taxa de presença (%)")
 ax.set_ylabel("Nota média nos simulados")
-ax.set_title(f"Presença x desempenho em simulados (n={len(att_res)} alunos, turmas 2021)")
+ax.set_title(f"Presença x desempenho em simulados (N={len(att_res)} alunos)")
 fig.tight_layout()
 fig.savefig(FIG / "q2b_presenca_vs_simulado.png", dpi=150)
 plt.close(fig)
@@ -194,9 +192,9 @@ sim_mat = sim_join.groupby("materia").agg(
     n_resultados=("resultado_id", "count"),
     nota_simulado_media=("nota", "mean"),
     taxa_finalizacao_pct=("status_realizacao", lambda s: round((s == "Finalizado").mean() * 100, 1)),
-).round(1).sort_values("nota_simulado_media", ascending=False)
+).round(1)
 
-q3 = diag.join(sim_mat, how="outer")
+q3 = diag.join(sim_mat, how="left")
 print(q3)
 metrics["q3_desempenho_por_materia"] = q3.reset_index().rename(columns={"index": "materia"}).to_dict(orient="records")
 
@@ -247,7 +245,7 @@ with open(DOCS / "metricas.json", "w", encoding="utf-8") as f:
 # Gerar dashboard_data.json para visualização interativa
 # ===========================================================================
 dashboard_data = {
-    "q1_por_ano": q1.reset_index().rename(columns={"ano_vestibular": "index"}).to_dict(orient="records"),
+    "q1_por_ano": q1.reset_index().rename(columns={"ano_vestibular": "ano"}).to_dict(orient="records"),
     "q1_universidade": apr_uni.to_dict(),
     "q1_bolsa": apr_bolsa.to_dict(),
     

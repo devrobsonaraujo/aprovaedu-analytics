@@ -16,7 +16,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-RAW_PATH = Path(__file__).resolve().parents[1] / "data" / "raw" / "base_pre_vestibular_dicionario_amostras.xlsx"
+RAW_PATH = Path(__file__).resolve().parents[1] / "data" / "raw"
 OUT_DIR = Path(__file__).resolve().parents[1] / "data" / "processed"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -105,9 +105,32 @@ def to_numeric(series: pd.Series) -> pd.Series:
 # ---------------------------------------------------------------------------
 
 def load_raw():
-    xl = pd.ExcelFile(RAW_PATH)
-    raw = {s: xl.parse(s, dtype=str) for s in xl.sheet_names if s.startswith("Amostra_")}
-    log(f"[LOAD] {len(raw)} tabelas lidas de {RAW_PATH.name}")
+    # Mapeamento do nome lógico esperado pelo ETL para o nome do arquivo CSV
+    file_mapping = {
+        "Amostra_Professores": "professores.csv",
+        "Amostra_Estudantes": "estudantes.csv",
+        "Amostra_Ofertas_Curso": "ofertas_curso.csv",
+        "Amostra_Matriculas": "matriculas.csv",
+        "Amostra_Aprovacoes": "aprovacoes_vestibular.csv",
+        "Amostra_Simulados": "simulados.csv",
+        "Amostra_Resultados_Sim": "resultados_simulados.csv",
+        "Amostra_Aulas": "aulas.csv",
+        "Amostra_Presencas_Aulas": "presencas_aulas.csv",
+    }
+    
+    raw = {}
+    for key, filename in file_mapping.items():
+        filepath = RAW_PATH / filename
+        if filepath.exists():
+            # Tenta ler com separador vírgula (padrão) ou ponto e vírgula se necessário
+            try:
+                raw[key] = pd.read_csv(filepath, dtype=str)
+            except Exception:
+                raw[key] = pd.read_csv(filepath, dtype=str, sep=";")
+        else:
+            log(f"[AVISO] Arquivo não encontrado: {filepath}")
+
+    log(f"[LOAD] {len(raw)} tabelas lidas de {RAW_PATH}")
     for k, v in raw.items():
         log(f"  - {k}: {v.shape[0]} linhas x {v.shape[1]} colunas")
     return raw
